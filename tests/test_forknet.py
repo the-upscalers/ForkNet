@@ -112,7 +112,7 @@ def test_backward_propagation_reaches_next_frame():
 
 def test_legacy_backward_indexing_skips_next_frame():
     """Legacy: frame 0 reads the propagated features of frames T-2 and T-3 instead of 1 and 2,
-    so it never sees frame 1 (docs/FINDINGS.md, F2)."""
+    so it never sees frame 1."""
     assert not _backward_dependency(legacy=True)
 
 

@@ -15,8 +15,8 @@ MIA-VSR (BasicSR):
   `test.overlap` enables overlapping windows.
 * Baselines are scored on their saved frames with `scripts/evaluate_outputs.py`, i.e. the same code.
 
-`scripts/test.py --protocol legacy` re-creates the original validation loop (see
-[FINDINGS.md](FINDINGS.md), F6). Do not mix the two protocols in one table.
+`scripts/test.py --protocol legacy` re-creates the original validation loop.
+Do not mix the two protocols in one table.
 
 ### Validation of the evaluation code
 

@@ -7,7 +7,7 @@ Standard protocol (used by BasicVSR, BasicVSR++, IconVSR, MIA-VSR):
     with 'valid' filtering, matching BasicSR's ``calculate_ssim``.
 
 Legacy protocol (``legacy_clip_metrics``): what the original Fork-Net training code
-reported, kept for backward compatibility. See docs/FINDINGS.md, F6.
+reported, kept for backward compatibility.
 """
 
 import numpy as np

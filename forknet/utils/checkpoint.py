@@ -3,7 +3,7 @@
 Release format: ``{"params": state_dict, "config": ForkNetConfig dict, "iter": int, ...}``.
 Original format: ``{"model_state_dict": state_dict, "epoch": int, ...}``; its architecture is
 inferred from tensor shapes, and the three ``legacy_*`` behaviours are assumed to be on,
-because every original variant had them (docs/FINDINGS.md).
+because every original variant had them.
 """
 
 import re

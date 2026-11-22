@@ -49,7 +49,7 @@ def test_pretrained_spynet_estimates_known_shift(shifted_pair):
 @pytest.mark.parametrize("legacy", [False, True])
 def test_forward_flow_direction(shifted_pair, legacy):
     """forward_1 must align frame t-1 to frame t. The legacy direction makes alignment worse
-    than not warping at all (docs/FINDINGS.md, F1)."""
+    than not warping at all."""
     model = ForkNet(ForkNetConfig(legacy_flow_direction=legacy), spynet_path=str(SPYNET_WEIGHTS)).eval()
     with torch.no_grad():
         flows = model.compute_flows(shifted_pair)

@@ -49,7 +49,7 @@ class VideoTrainDataset(Dataset):
         augment: ``"flips"`` applies random horizontal and vertical flips shared by all frames.
             ``"legacy"`` reproduces the original code, whose flips acted on a (T, C, H, W)
             tensor along dims 2 and 1, i.e. a vertical flip and an RGB<->BGR channel
-            reversal (docs/FINDINGS.md, F5). ``"none"`` disables augmentation.
+            reversal. ``"none"`` disables augmentation.
         rot90, temporal_reverse: optional extra augmentations (off in the paper setting).
         degradation: if given (a dict, possibly empty), LR frames are synthesised on the fly from the
             HR crop with ``build_degradation(degradation)`` (``type: real`` by default, or ``kernel_mix``)

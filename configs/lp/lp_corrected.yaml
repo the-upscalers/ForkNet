@@ -1,5 +1,5 @@
 # Paired experiment (does fixing the propagation help on plates?): the paper's REDS checkpoint fine-tuned on LP-train
-# with the CORRECTED propagation (flow direction, backward frame index, flow scaling; F1-F3 in docs/FINDINGS.md).
+# with the CORRECTED propagation (flow direction, backward frame index, flow scaling).
 # Compare with lp_legacy.yaml: identical except the propagation. Evaluate on LP test_clean (no leakage).
 base: ../finetune_lp.yaml
 name: forknet_lp_corrected

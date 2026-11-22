@@ -21,7 +21,7 @@ inside the decoder with ConvNeXt-style aggregation. Blueprint-separable convolut
 > Consolidating the research code uncovered bugs in the propagation of the original implementation
 > (flows applied in the wrong direction, wrong time steps in the backward branch) and a non-standard
 > evaluation protocol. The default configuration fixes them; `legacy_*` switches reproduce the original
-> behaviour bit-for-bit so existing checkpoints still work. See [docs/FINDINGS.md](docs/FINDINGS.md).
+> behaviour bit-for-bit so existing checkpoints still work.
 
 ## Installation
 
@@ -120,7 +120,7 @@ forknet/utils/      configs, checkpoints (incl. original-format loading), comple
 configs/            training / ablation / fine-tuning / test configs
 scripts/            train, test, evaluate_outputs, infer, complexity, inspect_checkpoint, data preparation, baselines
 tests/              unit, integration, end-to-end and legacy-equivalence tests
-docs/               architecture, findings, reproducibility, dataset datasheet
+docs/               architecture, reproducibility, dataset datasheet
 kaggle/             GPU validation kernel
 ```
 

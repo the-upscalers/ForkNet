@@ -1,5 +1,5 @@
 # Reproduces the training behaviour of the original research code (pixel-level-vsr, branch fork-net),
-# including the propagation and augmentation bugs documented in docs/FINDINGS.md.
+# including the propagation and augmentation bugs.
 base: train_reds.yaml
 name: forknet_reds_legacy
 model:

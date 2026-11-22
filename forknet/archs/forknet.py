@@ -41,10 +41,10 @@ class ForkNetConfig:
     fuse_with_input: bool = False
     # Channels at the deepest encoder level = bottleneck_mult * num_feat.
     bottleneck_mult: int = 2
-    # Behaviour of the original research code; see docs/FINDINGS.md.
-    legacy_flow_direction: bool = True  # F1: forward/backward flows swapped
-    legacy_backward_index: bool = True  # F2: backward branch reads wrong time steps
-    legacy_flow_scaling: bool = True  # F3: flow magnitudes not rescaled at 1/2x level
+    # Behaviour of the original research code.
+    legacy_flow_direction: bool = True  # forward/backward flows swapped
+    legacy_backward_index: bool = True  # backward branch reads wrong time steps
+    legacy_flow_scaling: bool = True  # flow magnitudes not rescaled at 1/2x level
     # Training-time RepVGG branches on every depthwise 3x3 conv (research/12, P2); fold with reparameterize().
     rep_dw: bool = False
 

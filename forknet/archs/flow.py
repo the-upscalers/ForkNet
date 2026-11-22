@@ -34,7 +34,7 @@ def resize_flow(flow, size, rescale_values=True):
 
     When ``rescale_values`` is True the displacement vectors are scaled by the
     resize ratio, which is required for the flow to stay geometrically valid.
-    The original Fork-Net code did not rescale (see docs/FINDINGS.md, F3).
+    The original Fork-Net code did not rescale.
     """
     n, t, _, h, w = flow.shape
     out = F.interpolate(flow.reshape(n * t, 2, h, w), size=size, mode="bilinear", align_corners=False)

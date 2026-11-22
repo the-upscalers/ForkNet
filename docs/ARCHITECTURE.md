@@ -70,9 +70,9 @@ All switches live in `ForkNetConfig` (YAML key `model`):
 | `prop_block` | `convnext` | `convnext` or `resblock` |
 | `use_bsconv` | true | BSConv vs. standard 3×3 convolutions |
 | `bsconv_fusion` | = `use_bsconv` | BSConv for `fuse_net` / `up_net` |
-| `fuse_with_input` | false | also concatenate `F[t]` into the fusion (variant of F4) |
+| `fuse_with_input` | false | also concatenate `F[t]` into the fusion (variant from the original code) |
 | `bottleneck_mult` | 2 | channels of S⁴ = mult × C |
-| `legacy_flow_direction`, `legacy_backward_index`, `legacy_flow_scaling` | false | reproduce F1–F3 of [FINDINGS.md](FINDINGS.md) |
+| `legacy_flow_direction`, `legacy_backward_index`, `legacy_flow_scaling` | false | reproduce the original flow direction, backward indexing and flow scaling |
 
 Inputs whose LR height or width is odd are replicate-padded by one pixel and the output is
 cropped. SpyNet internally resizes inputs smaller than 64 px up to 64 px.

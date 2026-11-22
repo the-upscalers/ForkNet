@@ -1,0 +1,10 @@
+# Leave-one-out ablation of finetune_kernelmix_from_paper.yaml: the same kernel mix WITHOUT cv2_bicubic, the kernel
+# that made the LP dataset's LR frames. If most of the LP gain remains, the model learned kernel robustness in
+# general rather than the LP test degradation.
+base: finetune_kernelmix_from_paper.yaml
+name: forknet_kernelmix_nocv2_ft
+data:
+  train:
+    degradation:
+      type: kernel_mix
+      kernels: [matlab_bicubic, area, bilinear, lanczos]

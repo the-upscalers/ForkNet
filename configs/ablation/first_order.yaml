@@ -1,0 +1,4 @@
+base: ../train_reds.yaml
+name: ablation_first_order
+model:
+  prop_order: 1

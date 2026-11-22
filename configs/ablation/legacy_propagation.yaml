@@ -1,0 +1,7 @@
+# Same as the main model but with the original (buggy) propagation, isolating the effect of the fixes.
+base: ../train_reds.yaml
+name: ablation_legacy_propagation
+model:
+  legacy_flow_direction: true
+  legacy_backward_index: true
+  legacy_flow_scaling: true

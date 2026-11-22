@@ -1,0 +1,18 @@
+# Degradation levels for scripts/degradation_sweep.py (forknet.data.degradations.degrade_clip arguments).
+# "clean" is the standard MATLAB-bicubic (BI) degradation that all REDS-trained models were trained on.
+levels:
+  clean: {}
+  down_cv2_cubic: {downsample: cv2_bicubic} # OpenCV INTER_CUBIC, no antialiasing: exactly how the LP dataset LR was made
+  down_lanczos: {downsample: lanczos}       # PIL Lanczos (team's LP-image downsampling notebook)
+  down_area: {downsample: area}
+  blur_s1.0: {blur_sigma: 1.0}
+  blur_s2.0: {blur_sigma: 2.0}
+  noise_5: {noise_sigma: 5}
+  noise_15: {noise_sigma: 15}
+  jpeg_q70: {jpeg_quality: 70}
+  jpeg_q40: {jpeg_quality: 40}
+  h264_crf23: {crf: 23}
+  h264_crf28: {crf: 28}
+  h264_crf33: {crf: 33}
+  combo_mild: {blur_sigma: 1.0, noise_sigma: 5, crf: 28}
+  combo_severe: {blur_sigma: 2.0, noise_sigma: 15, jpeg_quality: 50, crf: 33}

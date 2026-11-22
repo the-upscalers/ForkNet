@@ -1,0 +1,12 @@
+name: reds4
+data:
+  test:
+    lr_root: data/REDS/LR_bicubic_X4
+    hr_root: data/REDS/HR
+    clips: ["000", "011", "015", "020"]
+test:
+  chunk_size: 15        # frames per forward pass (memory); null = whole sequence
+  overlap: 0
+  crop_border: 0
+  amp: true            # fp16 inference: fp32 over 15 x 180x320 frames does not fit a 16 GB T4 (as in training validation)
+  legacy_chunk_size: 15

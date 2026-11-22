@@ -1,0 +1,4 @@
+# Seed replicate of finetune_kernelmix_from_paper.yaml.
+base: ../finetune_kernelmix_from_paper.yaml
+name: forknet_kernelmix_ft_s1
+seed: 1

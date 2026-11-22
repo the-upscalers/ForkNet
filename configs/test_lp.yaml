@@ -1,0 +1,12 @@
+# LP video dataset test split (31 clips). Paths follow the forknet-lp-data Kaggle dataset.
+name: lp
+data:
+  test:
+    lr_root: data/lp/lpsr/test/X4
+    hr_root: data/lp/lpsr/test/sharp
+test:
+  chunk_size: null      # clips are 64x64 and <= 176 frames: process whole
+  overlap: 0
+  crop_border: 0
+  amp: false
+  legacy_chunk_size: 15

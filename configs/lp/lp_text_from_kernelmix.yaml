@@ -1,0 +1,10 @@
+# Option 2 (research/13): LP fine-tune from the kernel-mix model (as lp_from_kernelmix.yaml) plus a plate-text
+# feature loss (frozen EasyOCR recogniser features on the plate region, boxes from scripts/lp/plate_boxes.py).
+# plate_boxes "auto" = computed by runpod/run_finetune.py on the LP training HR frames before training.
+base: lp_from_kernelmix.yaml
+name: forknet_lp_text_from_kernelmix
+data:
+  train:
+    plate_boxes: auto
+train:
+  text_weight: 0.05

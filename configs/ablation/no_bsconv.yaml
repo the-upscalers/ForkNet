@@ -1,0 +1,6 @@
+# Standard 3x3 convolutions everywhere instead of blueprint-separable convolutions.
+base: ../train_reds.yaml
+name: ablation_no_bsconv
+model:
+  use_bsconv: false
+  bsconv_fusion: false

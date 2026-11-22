@@ -1,0 +1,11 @@
+# Option 3 (research/13): kernel mix + RealBasicVSR-style random degradations, one per clip (p = 0.5 each), fine-tuned
+# from the paper ckpt like finetune_kernelmix_from_paper.yaml (corrected propagation, 15-frame clips, 30k iterations).
+base: finetune_kernelmix_from_paper.yaml
+name: forknet_mixed_ft
+data:
+  train:
+    degradation:
+      type: mixed
+      real_prob: 0.5
+train:
+  num_workers: 8             # the real pipeline is CPU-heavy

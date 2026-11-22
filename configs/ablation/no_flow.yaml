@@ -1,0 +1,5 @@
+# Second-order propagation without motion compensation (neighbour features are not warped).
+base: ../train_reds.yaml
+name: ablation_no_flow
+model:
+  use_flow: false

@@ -1,0 +1,16 @@
+# Reproduces the training behaviour of the original research code (pixel-level-vsr, branch fork-net),
+# including the propagation and augmentation bugs documented in docs/FINDINGS.md.
+base: train_reds.yaml
+name: forknet_reds_legacy
+model:
+  legacy_flow_direction: true
+  legacy_backward_index: true
+  legacy_flow_scaling: true
+data:
+  train:
+    temporal_sampling: fixed_chunks
+    augment: legacy
+train:
+  lr: 1.0e-4                  # utils/options.py on the final branch (paper text says 2e-4)
+  flow_lr_mult: 0.25
+  fix_flow_iters: 300000      # the original code never unfroze SpyNet unless training was resumed

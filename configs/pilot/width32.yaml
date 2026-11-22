@@ -1,0 +1,10 @@
+# Pilot (screening) ablation: 7-frame clips, 20k iterations (~4 T4-hours). Only rows that matter go to the full schedule.
+base: ../ablation/width32.yaml
+name: pilot_width32
+data:
+  train:
+    num_frames: 7
+train:
+  total_iters: 20000
+  val_every: 0
+  save_every: 5000

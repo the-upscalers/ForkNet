@@ -1,0 +1,12 @@
+# Corrected Fork-Net obtained cheaply: start from the paper's REDS checkpoint (300k iterations, original propagation)
+# and fine-tune with the corrected propagation. The propagation fixes do not change any weight shape.
+# ~30k iterations = ~13 T4-hours with activation checkpointing (one Kaggle session).
+base: train_reds.yaml
+name: forknet_corrected_ft
+pretrained: auto:paper          # resolved to forknet_reds_paper.pth (release) or the original best_checkpoint.pth
+train:
+  total_iters: 30000
+  lr: 1.0e-4
+  fix_flow_iters: 0
+  val_every: 10000
+  save_every: 2000

@@ -1,0 +1,65 @@
+{
+ "cv2_area": {
+  "Bicubic": 25.33111893879489,
+  "BasicVSR": 24.34394681675301,
+  "BasicVSR++": 24.939416258755756,
+  "RVRT": 25.98180927718482,
+  "RealBasicVSR": 25.144195130541533,
+  "Fork-Net (released)": 26.61410786702509,
+  "Ours (kernel mix)": 27.878325285905397
+ },
+ "cv2_lanczos4": {
+  "Bicubic": 24.32039317121449,
+  "BasicVSR": 18.18072148438016,
+  "BasicVSR++": 20.399750097210045,
+  "RVRT": 20.909331631543218,
+  "RealBasicVSR": 22.72930182261041,
+  "Fork-Net (released)": 21.478612654888817,
+  "Ours (kernel mix)": 26.262968172122115
+ },
+ "cv2_linear": {
+  "Bicubic": 24.894994898482565,
+  "BasicVSR": 19.548681307445744,
+  "BasicVSR++": 21.44739966637829,
+  "RVRT": 21.98889297081999,
+  "RealBasicVSR": 23.506680484294474,
+  "Fork-Net (released)": 22.59997207987167,
+  "Ours (kernel mix)": 27.064450637787132
+ },
+ "cv2_nearest": {
+  "Bicubic": 21.08317987632277,
+  "BasicVSR": 15.898884264491233,
+  "BasicVSR++": 17.91376456771722,
+  "RVRT": 18.217030138490557,
+  "RealBasicVSR": 19.217849894990103,
+  "Fork-Net (released)": 18.611231393238683,
+  "Ours (kernel mix)": 20.42285700134636
+ },
+ "ffmpeg_bicubic": {
+  "Bicubic": 25.360169579390178,
+  "BasicVSR": 30.644322645501344,
+  "BasicVSR++": 30.938104581181268,
+  "RVRT": 30.693937047088593,
+  "RealBasicVSR": 25.06094275650897,
+  "Fork-Net (released)": 29.411445361007228,
+  "Ours (kernel mix)": 28.104576046363356
+ },
+ "pil_bicubic": {
+  "Bicubic": 25.30417755154292,
+  "BasicVSR": 31.10475485707864,
+  "BasicVSR++": 31.2426595850403,
+  "RVRT": 30.888029725824378,
+  "RealBasicVSR": 25.13388634930938,
+  "Fork-Net (released)": 29.52758143936008,
+  "Ours (kernel mix)": 28.202423574228497
+ },
+ "torch_bicubic": {
+  "Bicubic": 24.374830736837215,
+  "BasicVSR": 17.76926114863729,
+  "BasicVSR++": 20.225999111121737,
+  "RVRT": 20.76489692905207,
+  "RealBasicVSR": 22.684147595017482,
+  "Fork-Net (released)": 21.347516335370507,
+  "Ours (kernel mix)": 26.409101379622168
+ }
+}

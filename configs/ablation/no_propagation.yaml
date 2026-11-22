@@ -1,0 +1,5 @@
+# Single-frame model: no temporal propagation (each frame super-resolved independently).
+base: ../train_reds.yaml
+name: ablation_no_propagation
+model:
+  prop_order: 0

@@ -1,0 +1,8 @@
+# Batch-length trade-off under a fixed frame budget (batch x frames ~= 60), cf. the batch-length trade-off studied in RealBasicVSR (Chan et al., CVPR 2022).
+base: ../train_reds.yaml
+name: tradeoff_batch4_len15
+data:
+  train:
+    num_frames: 15
+train:
+  batch_size: 4

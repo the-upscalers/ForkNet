@@ -1,0 +1,4 @@
+# Seed 1 replicate of km_w48_pilot.yaml.
+base: km_w48_pilot.yaml
+name: km_w48_pilot_s1
+seed: 1

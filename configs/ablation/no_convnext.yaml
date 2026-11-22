@@ -1,0 +1,5 @@
+# Plain residual blocks (conv-ReLU-conv) instead of ConvNeXt blocks in the propagation branches.
+base: ../train_reds.yaml
+name: ablation_no_convnext
+model:
+  prop_block: resblock

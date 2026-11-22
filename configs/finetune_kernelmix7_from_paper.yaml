@@ -1,0 +1,8 @@
+# Disentangles why finetune_kernelmix_from_paper.yaml does not diverge on long LP clips while pilot P1 did:
+# same fine-tune from the paper checkpoint, but on 7-frame clips as in P1. If this one diverges, the training clip
+# length is the cause; if not, the initialisation is.
+base: finetune_kernelmix_from_paper.yaml
+name: forknet_kernelmix7_ft
+data:
+  train:
+    num_frames: 7

@@ -1,0 +1,6 @@
+{"id": "uom200647r/forknet-experiments", "title": "ForkNet Experiments", "code_file": "forknet_experiments.py", "language": "python",
+ "kernel_type": "script", "is_private": true, "enable_gpu": true, "enable_internet": true,
+ "dataset_sources": ["uom200647r/forknet-code", "uom200647r/checkpoints-efficient-net-final", "uom200647r/fine-tuned-forknet",
+   "danniles/lpsr-dataset", "uom200647r/alpr-vsr", "uom200647r/lpr-val-videos", "joelsathiyendra/video-lq-dataset-new",
+   "uom200647r/validation", "uom200647r/reds-vsr"],
+ "competition_sources": [], "kernel_sources": [], "model_sources": []}

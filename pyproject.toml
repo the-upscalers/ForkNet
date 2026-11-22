@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "forknet"
+version = "1.0.0"
+description = "Fork-Net: U-Net video super-resolution with second-order bidirectional propagation"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.9"
+dependencies = ["torch>=2.1", "numpy", "pillow", "pyyaml"]
+
+[project.optional-dependencies]
+video = ["opencv-python-headless"]
+legacy-metrics = ["torchmetrics>=1.0"]
+logging = ["wandb"]
+dev = ["pytest", "scikit-image", "torchmetrics>=1.0", "bsconv", "opencv-python-headless"]
+
+[tool.setuptools.packages.find]
+include = ["forknet*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+filterwarnings = ["ignore::UserWarning"]
+
+[tool.ruff]
+line-length = 130

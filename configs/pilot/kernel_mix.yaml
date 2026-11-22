@@ -1,0 +1,10 @@
+# Pilot P1 (research/12): main pilot trained on HR REDS degraded on the fly with a per-clip random
+# downsampling kernel (MATLAB bicubic, aliased OpenCV cubic, area, bilinear, lanczos) + H.264 with p = 0.3.
+# Compare with pilot_main (REDS4 28.82, LP test_clean 22.08): expected small REDS4 cost, large LP zero-shot gain.
+base: main.yaml
+name: pilot_kernel_mix
+data:
+  train:
+    lr_root: null
+    degradation:
+      type: kernel_mix

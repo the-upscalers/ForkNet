@@ -1,0 +1,12 @@
+# Real-world Fork-Net: HR REDS clips degraded on the fly with RealBasicVSR-style
+# second-order random degradations (blur, resize, noise, JPEG, video compression); no LR folder needed.
+base: train_reds.yaml
+name: forknet_reds_real
+data:
+  train:
+    lr_root: null
+    degradation: {}          # forknet.data.degradations.RealVideoDegradation defaults
+    num_frames: 15
+train:
+  num_workers: 8             # degradation is CPU-heavy
+  val_every: 0               # REDS4-BI validation is not meaningful for a real-world model

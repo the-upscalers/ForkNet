@@ -1,0 +1,25 @@
+# E1 / E2 / E5 on the short schedule (100k iterations). Names must be unique per line (seeds via name=...).
+configs/train_reds.yaml train.total_iters=100000 name=E1.0_main_s0 seed=0
+configs/train_reds.yaml train.total_iters=100000 name=E1.0_main_s1 seed=1
+configs/train_reds.yaml train.total_iters=100000 name=E1.0_main_s2 seed=2
+configs/ablation/no_propagation.yaml train.total_iters=100000 name=E1.1_no_prop_s0 seed=0
+configs/ablation/forward_only.yaml train.total_iters=100000 name=E1.2_forward_only_s0 seed=0
+configs/ablation/first_order.yaml train.total_iters=100000 name=E1.3_first_order_s0 seed=0
+configs/ablation/no_flow.yaml train.total_iters=100000 name=E1.4_no_flow_s0 seed=0
+configs/ablation/legacy_propagation.yaml train.total_iters=100000 name=E1.5_legacy_prop_s0 seed=0
+configs/ablation/no_convnext.yaml train.total_iters=100000 name=E1.6_no_convnext_s0 seed=0
+configs/ablation/no_bsconv.yaml train.total_iters=100000 name=E1.7_no_bsconv_s0 seed=0
+configs/ablation/no_lr_injection.yaml train.total_iters=100000 name=E1.8_no_lr_injection_s0 seed=0
+configs/ablation/width32.yaml train.total_iters=100000 name=E2_width32_s0 seed=0
+configs/ablation/width48.yaml train.total_iters=100000 name=E2_width48_s0 seed=0
+configs/tradeoff/batch2_len30.yaml train.total_iters=100000 name=E5_b2_l30_s0 seed=0
+configs/tradeoff/batch8_len7.yaml train.total_iters=100000 name=E5_b8_l7_s0 seed=0
+# extra seeds for the core ablations
+configs/ablation/no_propagation.yaml train.total_iters=100000 name=E1.1_no_prop_s1 seed=1
+configs/ablation/no_propagation.yaml train.total_iters=100000 name=E1.1_no_prop_s2 seed=2
+configs/ablation/first_order.yaml train.total_iters=100000 name=E1.3_first_order_s1 seed=1
+configs/ablation/first_order.yaml train.total_iters=100000 name=E1.3_first_order_s2 seed=2
+configs/ablation/no_flow.yaml train.total_iters=100000 name=E1.4_no_flow_s1 seed=1
+configs/ablation/no_flow.yaml train.total_iters=100000 name=E1.4_no_flow_s2 seed=2
+configs/ablation/legacy_propagation.yaml train.total_iters=100000 name=E1.5_legacy_prop_s1 seed=1
+configs/ablation/legacy_propagation.yaml train.total_iters=100000 name=E1.5_legacy_prop_s2 seed=2

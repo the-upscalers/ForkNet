@@ -1,0 +1,13 @@
+# Core (requires torch >= 2.1; tested versions are listed in docs/REPRODUCIBILITY.md)
+torch>=2.1
+torchvision
+numpy
+pillow
+pyyaml
+# Video I/O for scripts/infer.py and prepare_lp_dataset.py
+opencv-python-headless
+# Tests and legacy-protocol metrics
+pytest
+scikit-image
+torchmetrics>=1.0
+bsconv

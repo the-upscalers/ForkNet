@@ -1,0 +1,5 @@
+# Size study, pilot scale: kernel-mix degradation, width 32, 7-frame clips, 20k iterations, from scratch.
+base: ../pilot/kernel_mix.yaml
+name: km_w32_pilot
+model:
+  num_feat: 32

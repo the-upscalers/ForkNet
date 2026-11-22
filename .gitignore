@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+.env
+.kaggle/
+kaggle.json
+wandb/
+
+# data, experiments and outputs
+/data/
+/experiments/
+/results/*
+!/results/paper/
+# plate strings are personal data: shared only under the data-use agreement (docs/PAPER.md)
+/splits/*labels*.csv
+/outputs/
+*.pth
+!weights/spynet_sintel_final-3d2a1287.pth

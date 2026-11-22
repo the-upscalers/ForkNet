@@ -1,0 +1,12 @@
+# Option 1 (research/13): perceptual + adversarial fine-tune of the kernel-mix model (RealBasicVSR-style losses:
+# Charbonnier 1, LPIPS-VGG 1, U-Net-SN GAN 0.05), still on kernel-mix degraded REDS so the robustness is kept.
+base: finetune_kernelmix_from_paper.yaml
+name: forknet_kernelmix_percep_ft
+pretrained: runpod:checkpoints/forknet_kernelmix_ft_final_iter30000.pth
+train:
+  total_iters: 15000
+  lr: 5.0e-5
+  perceptual_weight: 1.0
+  gan_weight: 0.05
+  aux_frames: 3
+  disc_lr: 1.0e-4

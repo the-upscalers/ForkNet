@@ -1,0 +1,62 @@
+{
+ "blur_s1.0": {
+  "BasicVSR++": 29.273895985474216,
+  "BasicVSR++, kernel mix": 29.022598508458035
+ },
+ "blur_s2.0": {
+  "BasicVSR++": 25.065292409925775,
+  "BasicVSR++, kernel mix": 25.950583032067357
+ },
+ "clean": {
+  "BasicVSR++": 31.254316647348865,
+  "BasicVSR++, kernel mix": 29.72474285234402
+ },
+ "combo_mild": {
+  "BasicVSR++": 23.32903221839706,
+  "BasicVSR++, kernel mix": 24.531206176986615
+ },
+ "combo_severe": {
+  "BasicVSR++": 21.326868625488487,
+  "BasicVSR++, kernel mix": 22.128670485121614
+ },
+ "down_area": {
+  "BasicVSR++": 24.939416258755756,
+  "BasicVSR++, kernel mix": 30.011129140901847
+ },
+ "down_cv2_cubic": {
+  "BasicVSR++": 20.225999111121737,
+  "BasicVSR++, kernel mix": 29.561692288407386
+ },
+ "down_lanczos": {
+  "BasicVSR++": 28.289962530368825,
+  "BasicVSR++, kernel mix": 29.333912941912573
+ },
+ "h264_crf23": {
+  "BasicVSR++": 25.21548638482852,
+  "BasicVSR++, kernel mix": 26.208395878179452
+ },
+ "h264_crf28": {
+  "BasicVSR++": 23.696153934230576,
+  "BasicVSR++, kernel mix": 24.896715461895496
+ },
+ "h264_crf33": {
+  "BasicVSR++": 22.32330556570366,
+  "BasicVSR++, kernel mix": 23.284040835414896
+ },
+ "jpeg_q40": {
+  "BasicVSR++": 23.588564089605878,
+  "BasicVSR++, kernel mix": 25.24520001045611
+ },
+ "jpeg_q70": {
+  "BasicVSR++": 25.301353765209395,
+  "BasicVSR++, kernel mix": 26.447799182277816
+ },
+ "noise_15": {
+  "BasicVSR++": 20.56991433824349,
+  "BasicVSR++, kernel mix": 24.098266470067962
+ },
+ "noise_5": {
+  "BasicVSR++": 25.991990121242363,
+  "BasicVSR++, kernel mix": 26.075877968150962
+ }
+}

@@ -1,0 +1,7 @@
+# Control for lp_corrected.yaml: same fine-tune with the ORIGINAL (buggy) propagation the paper weights were trained with.
+base: lp_corrected.yaml
+name: forknet_lp_legacy
+model:
+  legacy_flow_direction: true
+  legacy_backward_index: true
+  legacy_flow_scaling: true

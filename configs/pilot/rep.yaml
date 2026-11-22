@@ -1,0 +1,6 @@
+# Pilot P2 (research/12): main pilot with RepVGG-style training branches (3x3 + 1x1 + identity) on every
+# depthwise 3x3 conv. After training, ForkNet.reparameterize() folds them: same parameters and MACs as pilot_main.
+base: main.yaml
+name: pilot_rep
+model:
+  rep_dw: true

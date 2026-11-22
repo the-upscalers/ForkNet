@@ -1,0 +1,5 @@
+# Model-size sweep (Pareto figure): C = 32.
+base: ../train_reds.yaml
+name: ablation_width32
+model:
+  num_feat: 32

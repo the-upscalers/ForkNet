@@ -1,0 +1,6 @@
+# LP fine-tune (as lp_corrected.yaml, 15k iterations, corrected propagation) starting from the kernel-mix REDS
+# fine-tune instead of the paper checkpoint. Compare with lp_corrected (28.46) / lp_legacy (28.96) on LP test_clean.
+# runpod: prefix = a checkpoint of joelsathiyendra/forknet-runpod-finetune, fetched by runpod/run_finetune.py.
+base: lp_corrected.yaml
+name: forknet_lp_from_kernelmix
+pretrained: runpod:checkpoints/forknet_kernelmix_ft_final_iter30000.pth

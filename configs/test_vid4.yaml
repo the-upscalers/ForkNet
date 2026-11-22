@@ -1,0 +1,13 @@
+# Vid4 (BI). Paths follow the uom200647r/vid4-dataset layout (BIx4 / GT).
+name: vid4
+data:
+  test:
+    lr_root: data/Vid4/BIx4
+    hr_root: data/Vid4/GT
+    clips: [calendar, city, foliage, walk]
+test:
+  chunk_size: 15
+  overlap: 0
+  crop_border: 0
+  amp: false
+  legacy_chunk_size: 15

@@ -1,0 +1,5 @@
+# Encoder without features computed from the LR frame.
+base: ../train_reds.yaml
+name: ablation_no_lr_injection
+model:
+  lr_injection: false

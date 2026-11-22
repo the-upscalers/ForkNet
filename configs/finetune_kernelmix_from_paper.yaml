@@ -1,0 +1,9 @@
+# Full-size version of pilot P1 (research/12): the paper's REDS checkpoint fine-tuned for 30k iterations with the
+# corrected propagation on HR REDS degraded on the fly with a per-clip random downsampling kernel (+ H.264, p = 0.3).
+base: finetune_corrected_from_paper.yaml
+name: forknet_kernelmix_ft
+data:
+  train:
+    lr_root: null
+    degradation:
+      type: kernel_mix

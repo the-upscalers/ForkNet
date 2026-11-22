@@ -1,0 +1,2209 @@
+{
+ "ocr": {
+  "fast_plate_ocr": {
+   "HR": {
+    "clip_exact": [
+     0.8627450980392157,
+     0.7647058823529411,
+     0.9411764705882353
+    ],
+    "n": 51,
+    "vs_Bicubic": {
+     "fixes": 26,
+     "breaks": 0,
+     "mcnemar_p": 2.9802322387695312e-08
+    },
+    "vs_BasicVSR": {
+     "fixes": 31,
+     "breaks": 0,
+     "mcnemar_p": 9.313225746154785e-10
+    },
+    "vs_BasicVSR++": {
+     "fixes": 30,
+     "breaks": 0,
+     "mcnemar_p": 1.862645149230957e-09
+    },
+    "vs_RVRT": {
+     "fixes": 27,
+     "breaks": 0,
+     "mcnemar_p": 1.4901161193847656e-08
+    },
+    "vs_RealBasicVSR": {
+     "fixes": 23,
+     "breaks": 2,
+     "mcnemar_p": 1.9431114196777344e-05
+    },
+    "vs_MIA-VSR": {
+     "fixes": 28,
+     "breaks": 0,
+     "mcnemar_p": 7.450580596923828e-09
+    },
+    "vs_BasicVSR++, kernel mix": {
+     "fixes": 7,
+     "breaks": 1,
+     "mcnemar_p": 0.0703125
+    },
+    "vs_Fork-Net": {
+     "fixes": 27,
+     "breaks": 0,
+     "mcnemar_p": 1.4901161193847656e-08
+    },
+    "vs_Fork-Net, benchmark fine-tune": {
+     "fixes": 27,
+     "breaks": 0,
+     "mcnemar_p": 1.4901161193847656e-08
+    },
+    "vs_Fork-Net, kernel mix": {
+     "fixes": 16,
+     "breaks": 0,
+     "mcnemar_p": 3.0517578125e-05
+    },
+    "vs_Fork-Net, mixed": {
+     "fixes": 17,
+     "breaks": 0,
+     "mcnemar_p": 1.52587890625e-05
+    },
+    "vs_Fork-Net, LPIPS+GAN": {
+     "fixes": 21,
+     "breaks": 1,
+     "mcnemar_p": 1.0967254638671875e-05
+    },
+    "vs_Fork-Net, LP fine-tune": {
+     "fixes": 15,
+     "breaks": 0,
+     "mcnemar_p": 6.103515625e-05
+    },
+    "vs_Fork-Net, LP fine-tune + text": {
+     "fixes": 13,
+     "breaks": 0,
+     "mcnemar_p": 0.000244140625
+    }
+   },
+   "Bicubic": {
+    "clip_exact": [
+     0.35294117647058826,
+     0.21568627450980393,
+     0.49019607843137253
+    ],
+    "n": 51,
+    "vs_BasicVSR": {
+     "fixes": 6,
+     "breaks": 1,
+     "mcnemar_p": 0.125
+    },
+    "vs_BasicVSR++": {
+     "fixes": 4,
+     "breaks": 0,
+     "mcnemar_p": 0.125
+    },
+    "vs_RVRT": {
+     "fixes": 2,
+     "breaks": 1,
+     "mcnemar_p": 1.0
+    },
+    "vs_RealBasicVSR": {
+     "fixes": 1,
+     "breaks": 6,
+     "mcnemar_p": 0.125
+    },
+    "vs_MIA-VSR": {
+     "fixes": 3,
+     "breaks": 1,
+     "mcnemar_p": 0.625
+    },
+    "vs_BasicVSR++, kernel mix": {
+     "fixes": 0,
+     "breaks": 20,
+     "mcnemar_p": 1.9073486328125e-06
+    },
+    "vs_Fork-Net": {
+     "fixes": 2,
+     "breaks": 1,
+     "mcnemar_p": 1.0
+    },
+    "vs_Fork-Net, benchmark fine-tune": {
+     "fixes": 2,
+     "breaks": 1,
+     "mcnemar_p": 1.0
+    },
+    "vs_Fork-Net, kernel mix": {
+     "fixes": 0,
+     "breaks": 10,
+     "mcnemar_p": 0.001953125
+    },
+    "vs_Fork-Net, mixed": {
+     "fixes": 0,
+     "breaks": 9,
+     "mcnemar_p": 0.00390625
+    },
+    "vs_Fork-Net, LPIPS+GAN": {
+     "fixes": 0,
+     "breaks": 6,
+     "mcnemar_p": 0.03125
+    },
+    "vs_Fork-Net, LP fine-tune": {
+     "fixes": 0,
+     "breaks": 11,
+     "mcnemar_p": 0.0009765625
+    },
+    "vs_Fork-Net, LP fine-tune + text": {
+     "fixes": 0,
+     "breaks": 13,
+     "mcnemar_p": 0.000244140625
+    }
+   },
+   "BasicVSR": {
+    "clip_exact": [
+     0.2549019607843137,
+     0.13725490196078433,
+     0.37254901960784315
+    ],
+    "n": 51,
+    "vs_Bicubic": {
+     "fixes": 1,
+     "breaks": 6,
+     "mcnemar_p": 0.125
+    },
+    "vs_BasicVSR++": {
+     "fixes": 3,
+     "breaks": 4,
+     "mcnemar_p": 1.0
+    },
+    "vs_RVRT": {
+     "fixes": 1,
+     "breaks": 5,
+     "mcnemar_p": 0.21875
+    },
+    "vs_RealBasicVSR": {
+     "fixes": 0,
+     "breaks": 10,
+     "mcnemar_p": 0.001953125
+    },
+    "vs_MIA-VSR": {
+     "fixes": 2,
+     "breaks": 5,
+     "mcnemar_p": 0.453125
+    },
+    "vs_BasicVSR++, kernel mix": {
+     "fixes": 0,
+     "breaks": 25,
+     "mcnemar_p": 5.960464477539063e-08
+    },
+    "vs_Fork-Net": {
+     "fixes": 1,
+     "breaks": 5,
+     "mcnemar_p": 0.21875
+    },
+    "vs_Fork-Net, benchmark fine-tune": {
+     "fixes": 1,
+     "breaks": 5,
+     "mcnemar_p": 0.21875
+    },
+    "vs_Fork-Net, kernel mix": {
+     "fixes": 0,
+     "breaks": 15,
+     "mcnemar_p": 6.103515625e-05
+    },
+    "vs_Fork-Net, mixed": {
+     "fixes": 0,
+     "breaks": 14,
+     "mcnemar_p": 0.0001220703125
+    },
+    "vs_Fork-Net, LPIPS+GAN": {
+     "fixes": 0,
+     "breaks": 11,
+     "mcnemar_p": 0.0009765625
+    },
+    "vs_Fork-Net, LP fine-tune": {
+     "fixes": 0,
+     "breaks": 16,
+     "mcnemar_p": 3.0517578125e-05
+    },
+    "vs_Fork-Net, LP fine-tune + text": {
+     "fixes": 0,
+     "breaks": 18,
+     "mcnemar_p": 7.62939453125e-06
+    }
+   },
+   "BasicVSR++": {
+    "clip_exact": [
+     0.27450980392156865,
+     0.1568627450980392,
+     0.39215686274509803
+    ],
+    "n": 51,
+    "vs_Bicubic": {
+     "fixes": 0,
+     "breaks": 4,
+     "mcnemar_p": 0.125
+    },
+    "vs_BasicVSR": {
+     "fixes": 4,
+     "breaks": 3,
+     "mcnemar_p": 1.0
+    },
+    "vs_RVRT": {
+     "fixes": 0,
+     "breaks": 3,
+     "mcnemar_p": 0.25
+    },
+    "vs_RealBasicVSR": {
+     "fixes": 1,
+     "breaks": 10,
+     "mcnemar_p": 0.01171875
+    },
+    "vs_MIA-VSR": {
+     "fixes": 0,
+     "breaks": 2,
+     "mcnemar_p": 0.5
+    },
+    "vs_BasicVSR++, kernel mix": {
+     "fixes": 0,
+     "breaks": 24,
+     "mcnemar_p": 1.1920928955078125e-07
+    },
+    "vs_Fork-Net": {
+     "fixes": 0,
+     "breaks": 3,
+     "mcnemar_p": 0.25
+    },
+    "vs_Fork-Net, benchmark fine-tune": {
+     "fixes": 0,
+     "breaks": 3,
+     "mcnemar_p": 0.25
+    },
+    "vs_Fork-Net, kernel mix": {
+     "fixes": 0,
+     "breaks": 14,
+     "mcnemar_p": 0.0001220703125
+    },
+    "vs_Fork-Net, mixed": {
+     "fixes": 0,
+     "breaks": 13,
+     "mcnemar_p": 0.000244140625
+    },
+    "vs_Fork-Net, LPIPS+GAN": {
+     "fixes": 0,
+     "breaks": 10,
+     "mcnemar_p": 0.001953125
+    },
+    "vs_Fork-Net, LP fine-tune": {
+     "fixes": 0,
+     "breaks": 15,
+     "mcnemar_p": 6.103515625e-05
+    },
+    "vs_Fork-Net, LP fine-tune + text": {
+     "fixes": 0,
+     "breaks": 17,
+     "mcnemar_p": 1.52587890625e-05
+    }
+   },
+   "RVRT": {
+    "clip_exact": [
+     0.3333333333333333,
+     0.21568627450980393,
+     0.47058823529411764
+    ],
+    "n": 51,
+    "vs_Bicubic": {
+     "fixes": 1,
+     "breaks": 2,
+     "mcnemar_p": 1.0
+    },
+    "vs_BasicVSR": {
+     "fixes": 5,
+     "breaks": 1,
+     "mcnemar_p": 0.21875
+    },
+    "vs_BasicVSR++": {
+     "fixes": 3,
+     "breaks": 0,
+     "mcnemar_p": 0.25
+    },
+    "vs_RealBasicVSR": {
+     "fixes": 2,
+     "breaks": 8,
+     "mcnemar_p": 0.109375
+    },
+    "vs_MIA-VSR": {
+     "fixes": 1,
+     "breaks": 0,
+     "mcnemar_p": 1.0
+    },
+    "vs_BasicVSR++, kernel mix": {
+     "fixes": 0,
+     "breaks": 21,
+     "mcnemar_p": 9.5367431640625e-07
+    },
+    "vs_Fork-Net": {
+     "fixes": 0,
+     "breaks": 0,
+     "mcnemar_p": 1.0
+    },
+    "vs_Fork-Net, benchmark fine-tune": {
+     "fixes": 0,
+     "breaks": 0,
+     "mcnemar_p": 1.0
+    },
+    "vs_Fork-Net, kernel mix": {
+     "fixes": 0,
+     "breaks": 11,
+     "mcnemar_p": 0.0009765625
+    },
+    "vs_Fork-Net, mixed": {
+     "fixes": 0,
+     "breaks": 10,
+     "mcnemar_p": 0.001953125
+    },
+    "vs_Fork-Net, LPIPS+GAN": {
+     "fixes": 1,
+     "breaks": 8,
+     "mcnemar_p": 0.0390625
+    },
+    "vs_Fork-Net, LP fine-tune": {
+     "fixes": 0,
+     "breaks": 12,
+     "mcnemar_p": 0.00048828125
+    },
+    "vs_Fork-Net, LP fine-tune + text": {
+     "fixes": 0,
+     "breaks": 14,
+     "mcnemar_p": 0.0001220703125
+    }
+   },
+   "RealBasicVSR": {
+    "clip_exact": [
+     0.45098039215686275,
+     0.3137254901960784,
+     0.5882352941176471
+    ],
+    "n": 51,
+    "vs_Bicubic": {
+     "fixes": 6,
+     "breaks": 1,
+     "mcnemar_p": 0.125
+    },
+    "vs_BasicVSR": {
+     "fixes": 10,
+     "breaks": 0,
+     "mcnemar_p": 0.001953125
+    },
+    "vs_BasicVSR++": {
+     "fixes": 10,
+     "breaks": 1,
+     "mcnemar_p": 0.01171875
+    },
+    "vs_RVRT": {
+     "fixes": 8,
+     "breaks": 2,
+     "mcnemar_p": 0.109375
+    },
+    "vs_MIA-VSR": {
+     "fixes": 9,
+     "breaks": 2,
+     "mcnemar_p": 0.0654296875
+    },
+    "vs_BasicVSR++, kernel mix": {
+     "fixes": 2,
+     "breaks": 17,
+     "mcnemar_p": 0.000728607177734375
+    },
+    "vs_Fork-Net": {
+     "fixes": 8,
+     "breaks": 2,
+     "mcnemar_p": 0.109375
+    },
+    "vs_Fork-Net, benchmark fine-tune": {
+     "fixes": 8,
+     "breaks": 2,
+     "mcnemar_p": 0.109375
+    },
+    "vs_Fork-Net, kernel mix": {
+     "fixes": 2,
+     "breaks": 7,
+     "mcnemar_p": 0.1796875
+    },
+    "vs_Fork-Net, mixed": {
+     "fixes": 2,
+     "breaks": 6,
+     "mcnemar_p": 0.2890625
+    },
+    "vs_Fork-Net, LPIPS+GAN": {
+     "fixes": 4,
+     "breaks": 5,
+     "mcnemar_p": 1.0
+    },
+    "vs_Fork-Net, LP fine-tune": {
+     "fixes": 2,
+     "breaks": 8,
+     "mcnemar_p": 0.109375
+    },
+    "vs_Fork-Net, LP fine-tune + text": {
+     "fixes": 2,
+     "breaks": 10,
+     "mcnemar_p": 0.03857421875
+    }
+   },
+   "MIA-VSR": {
+    "clip_exact": [
+     0.3137254901960784,
+     0.19607843137254902,
+     0.43186274509803213
+    ],
+    "n": 51,
+    "vs_Bicubic": {
+     "fixes": 1,
+     "breaks": 3,
+     "mcnemar_p": 0.625
+    },
+    "vs_BasicVSR": {
+     "fixes": 5,
+     "breaks": 2,
+     "mcnemar_p": 0.453125
+    },
+    "vs_BasicVSR++": {
+     "fixes": 2,
+     "breaks": 0,
+     "mcnemar_p": 0.5
+    },
+    "vs_RVRT": {
+     "fixes": 0,
+     "breaks": 1,
+     "mcnemar_p": 1.0
+    },
+    "vs_RealBasicVSR": {
+     "fixes": 2,
+     "breaks": 9,
+     "mcnemar_p": 0.0654296875
+    },
+    "vs_BasicVSR++, kernel mix": {
+     "fixes": 0,
+     "breaks": 22,
+     "mcnemar_p": 4.76837158203125e-07
+    },
+    "vs_Fork-Net": {
+     "fixes": 0,
+     "breaks": 1,
+     "mcnemar_p": 1.0
+    },
+    "vs_Fork-Net, benchmark fine-tune": {
+     "fixes": 0,
+     "breaks": 1,
+     "mcnemar_p": 1.0
+    },
+    "vs_Fork-Net, kernel mix": {
+     "fixes": 0,
+     "breaks": 12,
+     "mcnemar_p": 0.00048828125
+    },
+    "vs_Fork-Net, mixed": {
+     "fixes": 0,
+     "breaks": 11,
+     "mcnemar_p": 0.0009765625
+    },
+    "vs_Fork-Net, LPIPS+GAN": {
+     "fixes": 1,
+     "breaks": 9,
+     "mcnemar_p": 0.021484375
+    },
+    "vs_Fork-Net, LP fine-tune": {
+     "fixes": 0,
+     "breaks": 13,
+     "mcnemar_p": 0.000244140625
+    },
+    "vs_Fork-Net, LP fine-tune + text": {
+     "fixes": 0,
+     "breaks": 15,
+     "mcnemar_p": 6.103515625e-05
+    }
+   },
+   "BasicVSR++, kernel mix": {
+    "clip_exact": [
+     0.7450980392156863,
+     0.6274509803921569,
+     0.8627450980392157
+    ],
+    "n": 51,
+    "vs_Bicubic": {
+     "fixes": 20,
+     "breaks": 0,
+     "mcnemar_p": 1.9073486328125e-06
+    },
+    "vs_BasicVSR": {
+     "fixes": 25,
+     "breaks": 0,
+     "mcnemar_p": 5.960464477539063e-08
+    },
+    "vs_BasicVSR++": {
+     "fixes": 24,
+     "breaks": 0,
+     "mcnemar_p": 1.1920928955078125e-07
+    },
+    "vs_RVRT": {
+     "fixes": 21,
+     "breaks": 0,
+     "mcnemar_p": 9.5367431640625e-07
+    },
+    "vs_RealBasicVSR": {
+     "fixes": 17,
+     "breaks": 2,
+     "mcnemar_p": 0.000728607177734375
+    },
+    "vs_MIA-VSR": {
+     "fixes": 22,
+     "breaks": 0,
+     "mcnemar_p": 4.76837158203125e-07
+    },
+    "vs_Fork-Net": {
+     "fixes": 21,
+     "breaks": 0,
+     "mcnemar_p": 9.5367431640625e-07
+    },
+    "vs_Fork-Net, benchmark fine-tune": {
+     "fixes": 21,
+     "breaks": 0,
+     "mcnemar_p": 9.5367431640625e-07
+    },
+    "vs_Fork-Net, kernel mix": {
+     "fixes": 11,
+     "breaks": 1,
+     "mcnemar_p": 0.00634765625
+    },
+    "vs_Fork-Net, mixed": {
+     "fixes": 11,
+     "breaks": 0,
+     "mcnemar_p": 0.0009765625
+    },
+    "vs_Fork-Net, LPIPS+GAN": {
+     "fixes": 15,
+     "breaks": 1,
+     "mcnemar_p": 0.000518798828125
+    },
+    "vs_Fork-Net, LP fine-tune": {
+     "fixes": 10,
+     "breaks": 1,
+     "mcnemar_p": 0.01171875
+    },
+    "vs_Fork-Net, LP fine-tune + text": {
+     "fixes": 9,
+     "breaks": 2,
+     "mcnemar_p": 0.0654296875
+    }
+   },
+   "Fork-Net": {
+    "clip_exact": [
+     0.3333333333333333,
+     0.21568627450980393,
+     0.47058823529411764
+    ],
+    "n": 51,
+    "vs_Bicubic": {
+     "fixes": 1,
+     "breaks": 2,
+     "mcnemar_p": 1.0
+    },
+    "vs_BasicVSR": {
+     "fixes": 5,
+     "breaks": 1,
+     "mcnemar_p": 0.21875
+    },
+    "vs_BasicVSR++": {
+     "fixes": 3,
+     "breaks": 0,
+     "mcnemar_p": 0.25
+    },
+    "vs_RVRT": {
+     "fixes": 0,
+     "breaks": 0,
+     "mcnemar_p": 1.0
+    },
+    "vs_RealBasicVSR": {
+     "fixes": 2,
+     "breaks": 8,
+     "mcnemar_p": 0.109375
+    },
+    "vs_MIA-VSR": {
+     "fixes": 1,
+     "breaks": 0,
+     "mcnemar_p": 1.0
+    },
+    "vs_BasicVSR++, kernel mix": {
+     "fixes": 0,
+     "breaks": 21,
+     "mcnemar_p": 9.5367431640625e-07
+    },
+    "vs_Fork-Net, benchmark fine-tune": {
+     "fixes": 0,
+     "breaks": 0,
+     "mcnemar_p": 1.0
+    },
+    "vs_Fork-Net, kernel mix": {
+     "fixes": 0,
+     "breaks": 11,
+     "mcnemar_p": 0.0009765625
+    },
+    "vs_Fork-Net, mixed": {
+     "fixes": 0,
+     "breaks": 10,
+     "mcnemar_p": 0.001953125
+    },
+    "vs_Fork-Net, LPIPS+GAN": {
+     "fixes": 1,
+     "breaks": 8,
+     "mcnemar_p": 0.0390625
+    },
+    "vs_Fork-Net, LP fine-tune": {
+     "fixes": 0,
+     "breaks": 12,
+     "mcnemar_p": 0.00048828125
+    },
+    "vs_Fork-Net, LP fine-tune + text": {
+     "fixes": 0,
+     "breaks": 14,
+     "mcnemar_p": 0.0001220703125
+    }
+   },
+   "Fork-Net, benchmark fine-tune": {
+    "clip_exact": [
+     0.3333333333333333,
+     0.21568627450980393,
+     0.47058823529411764
+    ],
+    "n": 51,
+    "vs_Bicubic": {
+     "fixes": 1,
+     "breaks": 2,
+     "mcnemar_p": 1.0
+    },
+    "vs_BasicVSR": {
+     "fixes": 5,
+     "breaks": 1,
+     "mcnemar_p": 0.21875
+    },
+    "vs_BasicVSR++": {
+     "fixes": 3,
+     "breaks": 0,
+     "mcnemar_p": 0.25
+    },
+    "vs_RVRT": {
+     "fixes": 0,
+     "breaks": 0,
+     "mcnemar_p": 1.0
+    },
+    "vs_RealBasicVSR": {
+     "fixes": 2,
+     "breaks": 8,
+     "mcnemar_p": 0.109375
+    },
+    "vs_MIA-VSR": {
+     "fixes": 1,
+     "breaks": 0,
+     "mcnemar_p": 1.0
+    },
+    "vs_BasicVSR++, kernel mix": {
+     "fixes": 0,
+     "breaks": 21,
+     "mcnemar_p": 9.5367431640625e-07
+    },
+    "vs_Fork-Net": {
+     "fixes": 0,
+     "breaks": 0,
+     "mcnemar_p": 1.0
+    },
+    "vs_Fork-Net, kernel mix": {
+     "fixes": 0,
+     "breaks": 11,
+     "mcnemar_p": 0.0009765625
+    },
+    "vs_Fork-Net, mixed": {
+     "fixes": 0,
+     "breaks": 10,
+     "mcnemar_p": 0.001953125
+    },
+    "vs_Fork-Net, LPIPS+GAN": {
+     "fixes": 1,
+     "breaks": 8,
+     "mcnemar_p": 0.0390625
+    },
+    "vs_Fork-Net, LP fine-tune": {
+     "fixes": 0,
+     "breaks": 12,
+     "mcnemar_p": 0.00048828125
+    },
+    "vs_Fork-Net, LP fine-tune + text": {
+     "fixes": 0,
+     "breaks": 14,
+     "mcnemar_p": 0.0001220703125
+    }
+   },
+   "Fork-Net, kernel mix": {
+    "clip_exact": [
+     0.5490196078431373,
+     0.4117647058823529,
+     0.6862745098039216
+    ],
+    "n": 51,
+    "vs_Bicubic": {
+     "fixes": 10,
+     "breaks": 0,
+     "mcnemar_p": 0.001953125
+    },
+    "vs_BasicVSR": {
+     "fixes": 15,
+     "breaks": 0,
+     "mcnemar_p": 6.103515625e-05
+    },
+    "vs_BasicVSR++": {
+     "fixes": 14,
+     "breaks": 0,
+     "mcnemar_p": 0.0001220703125
+    },
+    "vs_RVRT": {
+     "fixes": 11,
+     "breaks": 0,
+     "mcnemar_p": 0.0009765625
+    },
+    "vs_RealBasicVSR": {
+     "fixes": 7,
+     "breaks": 2,
+     "mcnemar_p": 0.1796875
+    },
+    "vs_MIA-VSR": {
+     "fixes": 12,
+     "breaks": 0,
+     "mcnemar_p": 0.00048828125
+    },
+    "vs_BasicVSR++, kernel mix": {
+     "fixes": 1,
+     "breaks": 11,
+     "mcnemar_p": 0.00634765625
+    },
+    "vs_Fork-Net": {
+     "fixes": 11,
+     "breaks": 0,
+     "mcnemar_p": 0.0009765625
+    },
+    "vs_Fork-Net, benchmark fine-tune": {
+     "fixes": 11,
+     "breaks": 0,
+     "mcnemar_p": 0.0009765625
+    },
+    "vs_Fork-Net, mixed": {
+     "fixes": 2,
+     "breaks": 1,
+     "mcnemar_p": 1.0
+    },
+    "vs_Fork-Net, LPIPS+GAN": {
+     "fixes": 6,
+     "breaks": 2,
+     "mcnemar_p": 0.2890625
+    },
+    "vs_Fork-Net, LP fine-tune": {
+     "fixes": 1,
+     "breaks": 2,
+     "mcnemar_p": 1.0
+    },
+    "vs_Fork-Net, LP fine-tune + text": {
+     "fixes": 1,
+     "breaks": 4,
+     "mcnemar_p": 0.375
+    }
+   },
+   "Fork-Net, mixed": {
+    "clip_exact": [
+     0.5294117647058824,
+     0.39215686274509803,
+     0.6666666666666666
+    ],
+    "n": 51,
+    "vs_Bicubic": {
+     "fixes": 9,
+     "breaks": 0,
+     "mcnemar_p": 0.00390625
+    },
+    "vs_BasicVSR": {
+     "fixes": 14,
+     "breaks": 0,
+     "mcnemar_p": 0.0001220703125
+    },
+    "vs_BasicVSR++": {
+     "fixes": 13,
+     "breaks": 0,
+     "mcnemar_p": 0.000244140625
+    },
+    "vs_RVRT": {
+     "fixes": 10,
+     "breaks": 0,
+     "mcnemar_p": 0.001953125
+    },
+    "vs_RealBasicVSR": {
+     "fixes": 6,
+     "breaks": 2,
+     "mcnemar_p": 0.2890625
+    },
+    "vs_MIA-VSR": {
+     "fixes": 11,
+     "breaks": 0,
+     "mcnemar_p": 0.0009765625
+    },
+    "vs_BasicVSR++, kernel mix": {
+     "fixes": 0,
+     "breaks": 11,
+     "mcnemar_p": 0.0009765625
+    },
+    "vs_Fork-Net": {
+     "fixes": 10,
+     "breaks": 0,
+     "mcnemar_p": 0.001953125
+    },
+    "vs_Fork-Net, benchmark fine-tune": {
+     "fixes": 10,
+     "breaks": 0,
+     "mcnemar_p": 0.001953125
+    },
+    "vs_Fork-Net, kernel mix": {
+     "fixes": 1,
+     "breaks": 2,
+     "mcnemar_p": 1.0
+    },
+    "vs_Fork-Net, LPIPS+GAN": {
+     "fixes": 5,
+     "breaks": 2,
+     "mcnemar_p": 0.453125
+    },
+    "vs_Fork-Net, LP fine-tune": {
+     "fixes": 1,
+     "breaks": 3,
+     "mcnemar_p": 0.625
+    },
+    "vs_Fork-Net, LP fine-tune + text": {
+     "fixes": 0,
+     "breaks": 4,
+     "mcnemar_p": 0.125
+    }
+   },
+   "Fork-Net, LPIPS+GAN": {
+    "clip_exact": [
+     0.47058823529411764,
+     0.3333333333333333,
+     0.6078431372549019
+    ],
+    "n": 51,
+    "vs_Bicubic": {
+     "fixes": 6,
+     "breaks": 0,
+     "mcnemar_p": 0.03125
+    },
+    "vs_BasicVSR": {
+     "fixes": 11,
+     "breaks": 0,
+     "mcnemar_p": 0.0009765625
+    },
+    "vs_BasicVSR++": {
+     "fixes": 10,
+     "breaks": 0,
+     "mcnemar_p": 0.001953125
+    },
+    "vs_RVRT": {
+     "fixes": 8,
+     "breaks": 1,
+     "mcnemar_p": 0.0390625
+    },
+    "vs_RealBasicVSR": {
+     "fixes": 5,
+     "breaks": 4,
+     "mcnemar_p": 1.0
+    },
+    "vs_MIA-VSR": {
+     "fixes": 9,
+     "breaks": 1,
+     "mcnemar_p": 0.021484375
+    },
+    "vs_BasicVSR++, kernel mix": {
+     "fixes": 1,
+     "breaks": 15,
+     "mcnemar_p": 0.000518798828125
+    },
+    "vs_Fork-Net": {
+     "fixes": 8,
+     "breaks": 1,
+     "mcnemar_p": 0.0390625
+    },
+    "vs_Fork-Net, benchmark fine-tune": {
+     "fixes": 8,
+     "breaks": 1,
+     "mcnemar_p": 0.0390625
+    },
+    "vs_Fork-Net, kernel mix": {
+     "fixes": 2,
+     "breaks": 6,
+     "mcnemar_p": 0.2890625
+    },
+    "vs_Fork-Net, mixed": {
+     "fixes": 2,
+     "breaks": 5,
+     "mcnemar_p": 0.453125
+    },
+    "vs_Fork-Net, LP fine-tune": {
+     "fixes": 2,
+     "breaks": 7,
+     "mcnemar_p": 0.1796875
+    },
+    "vs_Fork-Net, LP fine-tune + text": {
+     "fixes": 2,
+     "breaks": 9,
+     "mcnemar_p": 0.0654296875
+    }
+   },
+   "Fork-Net, LP fine-tune": {
+    "clip_exact": [
+     0.5686274509803921,
+     0.43137254901960786,
+     0.7058823529411765
+    ],
+    "n": 51,
+    "vs_Bicubic": {
+     "fixes": 11,
+     "breaks": 0,
+     "mcnemar_p": 0.0009765625
+    },
+    "vs_BasicVSR": {
+     "fixes": 16,
+     "breaks": 0,
+     "mcnemar_p": 3.0517578125e-05
+    },
+    "vs_BasicVSR++": {
+     "fixes": 15,
+     "breaks": 0,
+     "mcnemar_p": 6.103515625e-05
+    },
+    "vs_RVRT": {
+     "fixes": 12,
+     "breaks": 0,
+     "mcnemar_p": 0.00048828125
+    },
+    "vs_RealBasicVSR": {
+     "fixes": 8,
+     "breaks": 2,
+     "mcnemar_p": 0.109375
+    },
+    "vs_MIA-VSR": {
+     "fixes": 13,
+     "breaks": 0,
+     "mcnemar_p": 0.000244140625
+    },
+    "vs_BasicVSR++, kernel mix": {
+     "fixes": 1,
+     "breaks": 10,
+     "mcnemar_p": 0.01171875
+    },
+    "vs_Fork-Net": {
+     "fixes": 12,
+     "breaks": 0,
+     "mcnemar_p": 0.00048828125
+    },
+    "vs_Fork-Net, benchmark fine-tune": {
+     "fixes": 12,
+     "breaks": 0,
+     "mcnemar_p": 0.00048828125
+    },
+    "vs_Fork-Net, kernel mix": {
+     "fixes": 2,
+     "breaks": 1,
+     "mcnemar_p": 1.0
+    },
+    "vs_Fork-Net, mixed": {
+     "fixes": 3,
+     "breaks": 1,
+     "mcnemar_p": 0.625
+    },
+    "vs_Fork-Net, LPIPS+GAN": {
+     "fixes": 7,
+     "breaks": 2,
+     "mcnemar_p": 0.1796875
+    },
+    "vs_Fork-Net, LP fine-tune + text": {
+     "fixes": 2,
+     "breaks": 4,
+     "mcnemar_p": 0.6875
+    }
+   },
+   "Fork-Net, LP fine-tune + text": {
+    "clip_exact": [
+     0.6078431372549019,
+     0.47058823529411764,
+     0.7450980392156863
+    ],
+    "n": 51,
+    "vs_Bicubic": {
+     "fixes": 13,
+     "breaks": 0,
+     "mcnemar_p": 0.000244140625
+    },
+    "vs_BasicVSR": {
+     "fixes": 18,
+     "breaks": 0,
+     "mcnemar_p": 7.62939453125e-06
+    },
+    "vs_BasicVSR++": {
+     "fixes": 17,
+     "breaks": 0,
+     "mcnemar_p": 1.52587890625e-05
+    },
+    "vs_RVRT": {
+     "fixes": 14,
+     "breaks": 0,
+     "mcnemar_p": 0.0001220703125
+    },
+    "vs_RealBasicVSR": {
+     "fixes": 10,
+     "breaks": 2,
+     "mcnemar_p": 0.03857421875
+    },
+    "vs_MIA-VSR": {
+     "fixes": 15,
+     "breaks": 0,
+     "mcnemar_p": 6.103515625e-05
+    },
+    "vs_BasicVSR++, kernel mix": {
+     "fixes": 2,
+     "breaks": 9,
+     "mcnemar_p": 0.0654296875
+    },
+    "vs_Fork-Net": {
+     "fixes": 14,
+     "breaks": 0,
+     "mcnemar_p": 0.0001220703125
+    },
+    "vs_Fork-Net, benchmark fine-tune": {
+     "fixes": 14,
+     "breaks": 0,
+     "mcnemar_p": 0.0001220703125
+    },
+    "vs_Fork-Net, kernel mix": {
+     "fixes": 4,
+     "breaks": 1,
+     "mcnemar_p": 0.375
+    },
+    "vs_Fork-Net, mixed": {
+     "fixes": 4,
+     "breaks": 0,
+     "mcnemar_p": 0.125
+    },
+    "vs_Fork-Net, LPIPS+GAN": {
+     "fixes": 9,
+     "breaks": 2,
+     "mcnemar_p": 0.0654296875
+    },
+    "vs_Fork-Net, LP fine-tune": {
+     "fixes": 4,
+     "breaks": 2,
+     "mcnemar_p": 0.6875
+    }
+   }
+  },
+  "easyocr": {
+   "HR": {
+    "clip_exact": [
+     0.3137254901960784,
+     0.19607843137254902,
+     0.45098039215686275
+    ],
+    "n": 51,
+    "vs_Bicubic": {
+     "fixes": 11,
+     "breaks": 0,
+     "mcnemar_p": 0.0009765625
+    },
+    "vs_BasicVSR": {
+     "fixes": 12,
+     "breaks": 1,
+     "mcnemar_p": 0.00341796875
+    },
+    "vs_BasicVSR++": {
+     "fixes": 12,
+     "breaks": 2,
+     "mcnemar_p": 0.012939453125
+    },
+    "vs_RVRT": {
+     "fixes": 12,
+     "breaks": 1,
+     "mcnemar_p": 0.00341796875
+    },
+    "vs_RealBasicVSR": {
+     "fixes": 9,
+     "breaks": 1,
+     "mcnemar_p": 0.021484375
+    },
+    "vs_MIA-VSR": {
+     "fixes": 12,
+     "breaks": 0,
+     "mcnemar_p": 0.00048828125
+    },
+    "vs_BasicVSR++, kernel mix": {
+     "fixes": 4,
+     "breaks": 0,
+     "mcnemar_p": 0.125
+    },
+    "vs_Fork-Net": {
+     "fixes": 11,
+     "breaks": 1,
+     "mcnemar_p": 0.00634765625
+    },
+    "vs_Fork-Net, benchmark fine-tune": {
+     "fixes": 13,
+     "breaks": 1,
+     "mcnemar_p": 0.0018310546875
+    },
+    "vs_Fork-Net, kernel mix": {
+     "fixes": 6,
+     "breaks": 1,
+     "mcnemar_p": 0.125
+    },
+    "vs_Fork-Net, mixed": {
+     "fixes": 7,
+     "breaks": 1,
+     "mcnemar_p": 0.0703125
+    },
+    "vs_Fork-Net, LPIPS+GAN": {
+     "fixes": 8,
+     "breaks": 2,
+     "mcnemar_p": 0.109375
+    },
+    "vs_Fork-Net, LP fine-tune": {
+     "fixes": 7,
+     "breaks": 1,
+     "mcnemar_p": 0.0703125
+    },
+    "vs_Fork-Net, LP fine-tune + text": {
+     "fixes": 7,
+     "breaks": 1,
+     "mcnemar_p": 0.0703125
+    }
+   },
+   "Bicubic": {
+    "clip_exact": [
+     0.09803921568627451,
+     0.0196078431372549,
+     0.19607843137254902
+    ],
+    "n": 51,
+    "vs_BasicVSR": {
+     "fixes": 2,
+     "breaks": 2,
+     "mcnemar_p": 1.0
+    },
+    "vs_BasicVSR++": {
+     "fixes": 3,
+     "breaks": 4,
+     "mcnemar_p": 1.0
+    },
+    "vs_RVRT": {
+     "fixes": 3,
+     "breaks": 3,
+     "mcnemar_p": 1.0
+    },
+    "vs_RealBasicVSR": {
+     "fixes": 1,
+     "breaks": 4,
+     "mcnemar_p": 0.375
+    },
+    "vs_MIA-VSR": {
+     "fixes": 3,
+     "breaks": 2,
+     "mcnemar_p": 1.0
+    },
+    "vs_BasicVSR++, kernel mix": {
+     "fixes": 1,
+     "breaks": 8,
+     "mcnemar_p": 0.0390625
+    },
+    "vs_Fork-Net": {
+     "fixes": 2,
+     "breaks": 3,
+     "mcnemar_p": 1.0
+    },
+    "vs_Fork-Net, benchmark fine-tune": {
+     "fixes": 4,
+     "breaks": 3,
+     "mcnemar_p": 1.0
+    },
+    "vs_Fork-Net, kernel mix": {
+     "fixes": 1,
+     "breaks": 7,
+     "mcnemar_p": 0.0703125
+    },
+    "vs_Fork-Net, mixed": {
+     "fixes": 1,
+     "breaks": 6,
+     "mcnemar_p": 0.125
+    },
+    "vs_Fork-Net, LPIPS+GAN": {
+     "fixes": 1,
+     "breaks": 6,
+     "mcnemar_p": 0.125
+    },
+    "vs_Fork-Net, LP fine-tune": {
+     "fixes": 2,
+     "breaks": 7,
+     "mcnemar_p": 0.1796875
+    },
+    "vs_Fork-Net, LP fine-tune + text": {
+     "fixes": 1,
+     "breaks": 6,
+     "mcnemar_p": 0.125
+    }
+   },
+   "BasicVSR": {
+    "clip_exact": [
+     0.09803921568627451,
+     0.0196078431372549,
+     0.17647058823529413
+    ],
+    "n": 51,
+    "vs_Bicubic": {
+     "fixes": 2,
+     "breaks": 2,
+     "mcnemar_p": 1.0
+    },
+    "vs_BasicVSR++": {
+     "fixes": 1,
+     "breaks": 2,
+     "mcnemar_p": 1.0
+    },
+    "vs_RVRT": {
+     "fixes": 2,
+     "breaks": 2,
+     "mcnemar_p": 1.0
+    },
+    "vs_RealBasicVSR": {
+     "fixes": 1,
+     "breaks": 4,
+     "mcnemar_p": 0.375
+    },
+    "vs_MIA-VSR": {
+     "fixes": 3,
+     "breaks": 2,
+     "mcnemar_p": 1.0
+    },
+    "vs_BasicVSR++, kernel mix": {
+     "fixes": 1,
+     "breaks": 8,
+     "mcnemar_p": 0.0390625
+    },
+    "vs_Fork-Net": {
+     "fixes": 1,
+     "breaks": 2,
+     "mcnemar_p": 1.0
+    },
+    "vs_Fork-Net, benchmark fine-tune": {
+     "fixes": 2,
+     "breaks": 1,
+     "mcnemar_p": 1.0
+    },
+    "vs_Fork-Net, kernel mix": {
+     "fixes": 1,
+     "breaks": 7,
+     "mcnemar_p": 0.0703125
+    },
+    "vs_Fork-Net, mixed": {
+     "fixes": 1,
+     "breaks": 6,
+     "mcnemar_p": 0.125
+    },
+    "vs_Fork-Net, LPIPS+GAN": {
+     "fixes": 0,
+     "breaks": 5,
+     "mcnemar_p": 0.0625
+    },
+    "vs_Fork-Net, LP fine-tune": {
+     "fixes": 2,
+     "breaks": 7,
+     "mcnemar_p": 0.1796875
+    },
+    "vs_Fork-Net, LP fine-tune + text": {
+     "fixes": 1,
+     "breaks": 6,
+     "mcnemar_p": 0.125
+    }
+   },
+   "BasicVSR++": {
+    "clip_exact": [
+     0.11764705882352941,
+     0.0392156862745098,
+     0.21568627450980393
+    ],
+    "n": 51,
+    "vs_Bicubic": {
+     "fixes": 4,
+     "breaks": 3,
+     "mcnemar_p": 1.0
+    },
+    "vs_BasicVSR": {
+     "fixes": 2,
+     "breaks": 1,
+     "mcnemar_p": 1.0
+    },
+    "vs_RVRT": {
+     "fixes": 2,
+     "breaks": 1,
+     "mcnemar_p": 1.0
+    },
+    "vs_RealBasicVSR": {
+     "fixes": 2,
+     "breaks": 4,
+     "mcnemar_p": 0.6875
+    },
+    "vs_MIA-VSR": {
+     "fixes": 4,
+     "breaks": 2,
+     "mcnemar_p": 0.6875
+    },
+    "vs_BasicVSR++, kernel mix": {
+     "fixes": 2,
+     "breaks": 8,
+     "mcnemar_p": 0.109375
+    },
+    "vs_Fork-Net": {
+     "fixes": 2,
+     "breaks": 2,
+     "mcnemar_p": 1.0
+    },
+    "vs_Fork-Net, benchmark fine-tune": {
+     "fixes": 2,
+     "breaks": 0,
+     "mcnemar_p": 0.5
+    },
+    "vs_Fork-Net, kernel mix": {
+     "fixes": 2,
+     "breaks": 7,
+     "mcnemar_p": 0.1796875
+    },
+    "vs_Fork-Net, mixed": {
+     "fixes": 2,
+     "breaks": 6,
+     "mcnemar_p": 0.2890625
+    },
+    "vs_Fork-Net, LPIPS+GAN": {
+     "fixes": 1,
+     "breaks": 5,
+     "mcnemar_p": 0.21875
+    },
+    "vs_Fork-Net, LP fine-tune": {
+     "fixes": 1,
+     "breaks": 5,
+     "mcnemar_p": 0.21875
+    },
+    "vs_Fork-Net, LP fine-tune + text": {
+     "fixes": 1,
+     "breaks": 5,
+     "mcnemar_p": 0.21875
+    }
+   },
+   "RVRT": {
+    "clip_exact": [
+     0.09803921568627451,
+     0.0196078431372549,
+     0.17647058823529413
+    ],
+    "n": 51,
+    "vs_Bicubic": {
+     "fixes": 3,
+     "breaks": 3,
+     "mcnemar_p": 1.0
+    },
+    "vs_BasicVSR": {
+     "fixes": 2,
+     "breaks": 2,
+     "mcnemar_p": 1.0
+    },
+    "vs_BasicVSR++": {
+     "fixes": 1,
+     "breaks": 2,
+     "mcnemar_p": 1.0
+    },
+    "vs_RealBasicVSR": {
+     "fixes": 2,
+     "breaks": 5,
+     "mcnemar_p": 0.453125
+    },
+    "vs_MIA-VSR": {
+     "fixes": 3,
+     "breaks": 2,
+     "mcnemar_p": 1.0
+    },
+    "vs_BasicVSR++, kernel mix": {
+     "fixes": 1,
+     "breaks": 8,
+     "mcnemar_p": 0.0390625
+    },
+    "vs_Fork-Net": {
+     "fixes": 2,
+     "breaks": 3,
+     "mcnemar_p": 1.0
+    },
+    "vs_Fork-Net, benchmark fine-tune": {
+     "fixes": 1,
+     "breaks": 0,
+     "mcnemar_p": 1.0
+    },
+    "vs_Fork-Net, kernel mix": {
+     "fixes": 1,
+     "breaks": 7,
+     "mcnemar_p": 0.0703125
+    },
+    "vs_Fork-Net, mixed": {
+     "fixes": 1,
+     "breaks": 6,
+     "mcnemar_p": 0.125
+    },
+    "vs_Fork-Net, LPIPS+GAN": {
+     "fixes": 0,
+     "breaks": 5,
+     "mcnemar_p": 0.0625
+    },
+    "vs_Fork-Net, LP fine-tune": {
+     "fixes": 1,
+     "breaks": 6,
+     "mcnemar_p": 0.125
+    },
+    "vs_Fork-Net, LP fine-tune + text": {
+     "fixes": 1,
+     "breaks": 6,
+     "mcnemar_p": 0.125
+    }
+   },
+   "RealBasicVSR": {
+    "clip_exact": [
+     0.1568627450980392,
+     0.058823529411764705,
+     0.2549019607843137
+    ],
+    "n": 51,
+    "vs_Bicubic": {
+     "fixes": 4,
+     "breaks": 1,
+     "mcnemar_p": 0.375
+    },
+    "vs_BasicVSR": {
+     "fixes": 4,
+     "breaks": 1,
+     "mcnemar_p": 0.375
+    },
+    "vs_BasicVSR++": {
+     "fixes": 4,
+     "breaks": 2,
+     "mcnemar_p": 0.6875
+    },
+    "vs_RVRT": {
+     "fixes": 5,
+     "breaks": 2,
+     "mcnemar_p": 0.453125
+    },
+    "vs_MIA-VSR": {
+     "fixes": 5,
+     "breaks": 1,
+     "mcnemar_p": 0.21875
+    },
+    "vs_BasicVSR++, kernel mix": {
+     "fixes": 1,
+     "breaks": 5,
+     "mcnemar_p": 0.21875
+    },
+    "vs_Fork-Net": {
+     "fixes": 4,
+     "breaks": 2,
+     "mcnemar_p": 0.6875
+    },
+    "vs_Fork-Net, benchmark fine-tune": {
+     "fixes": 6,
+     "breaks": 2,
+     "mcnemar_p": 0.2890625
+    },
+    "vs_Fork-Net, kernel mix": {
+     "fixes": 1,
+     "breaks": 4,
+     "mcnemar_p": 0.375
+    },
+    "vs_Fork-Net, mixed": {
+     "fixes": 1,
+     "breaks": 3,
+     "mcnemar_p": 0.625
+    },
+    "vs_Fork-Net, LPIPS+GAN": {
+     "fixes": 1,
+     "breaks": 3,
+     "mcnemar_p": 0.625
+    },
+    "vs_Fork-Net, LP fine-tune": {
+     "fixes": 1,
+     "breaks": 3,
+     "mcnemar_p": 0.625
+    },
+    "vs_Fork-Net, LP fine-tune + text": {
+     "fixes": 0,
+     "breaks": 2,
+     "mcnemar_p": 0.5
+    }
+   },
+   "MIA-VSR": {
+    "clip_exact": [
+     0.0784313725490196,
+     0.0196078431372549,
+     0.1568627450980392
+    ],
+    "n": 51,
+    "vs_Bicubic": {
+     "fixes": 2,
+     "breaks": 3,
+     "mcnemar_p": 1.0
+    },
+    "vs_BasicVSR": {
+     "fixes": 2,
+     "breaks": 3,
+     "mcnemar_p": 1.0
+    },
+    "vs_BasicVSR++": {
+     "fixes": 2,
+     "breaks": 4,
+     "mcnemar_p": 0.6875
+    },
+    "vs_RVRT": {
+     "fixes": 2,
+     "breaks": 3,
+     "mcnemar_p": 1.0
+    },
+    "vs_RealBasicVSR": {
+     "fixes": 1,
+     "breaks": 5,
+     "mcnemar_p": 0.21875
+    },
+    "vs_BasicVSR++, kernel mix": {
+     "fixes": 0,
+     "breaks": 8,
+     "mcnemar_p": 0.0078125
+    },
+    "vs_Fork-Net": {
+     "fixes": 0,
+     "breaks": 2,
+     "mcnemar_p": 0.5
+    },
+    "vs_Fork-Net, benchmark fine-tune": {
+     "fixes": 2,
+     "breaks": 2,
+     "mcnemar_p": 1.0
+    },
+    "vs_Fork-Net, kernel mix": {
+     "fixes": 0,
+     "breaks": 7,
+     "mcnemar_p": 0.015625
+    },
+    "vs_Fork-Net, mixed": {
+     "fixes": 0,
+     "breaks": 6,
+     "mcnemar_p": 0.03125
+    },
+    "vs_Fork-Net, LPIPS+GAN": {
+     "fixes": 0,
+     "breaks": 6,
+     "mcnemar_p": 0.03125
+    },
+    "vs_Fork-Net, LP fine-tune": {
+     "fixes": 1,
+     "breaks": 7,
+     "mcnemar_p": 0.0703125
+    },
+    "vs_Fork-Net, LP fine-tune + text": {
+     "fixes": 0,
+     "breaks": 6,
+     "mcnemar_p": 0.03125
+    }
+   },
+   "BasicVSR++, kernel mix": {
+    "clip_exact": [
+     0.23529411764705882,
+     0.13725490196078433,
+     0.35294117647058826
+    ],
+    "n": 51,
+    "vs_Bicubic": {
+     "fixes": 8,
+     "breaks": 1,
+     "mcnemar_p": 0.0390625
+    },
+    "vs_BasicVSR": {
+     "fixes": 8,
+     "breaks": 1,
+     "mcnemar_p": 0.0390625
+    },
+    "vs_BasicVSR++": {
+     "fixes": 8,
+     "breaks": 2,
+     "mcnemar_p": 0.109375
+    },
+    "vs_RVRT": {
+     "fixes": 8,
+     "breaks": 1,
+     "mcnemar_p": 0.0390625
+    },
+    "vs_RealBasicVSR": {
+     "fixes": 5,
+     "breaks": 1,
+     "mcnemar_p": 0.21875
+    },
+    "vs_MIA-VSR": {
+     "fixes": 8,
+     "breaks": 0,
+     "mcnemar_p": 0.0078125
+    },
+    "vs_Fork-Net": {
+     "fixes": 7,
+     "breaks": 1,
+     "mcnemar_p": 0.0703125
+    },
+    "vs_Fork-Net, benchmark fine-tune": {
+     "fixes": 9,
+     "breaks": 1,
+     "mcnemar_p": 0.021484375
+    },
+    "vs_Fork-Net, kernel mix": {
+     "fixes": 3,
+     "breaks": 2,
+     "mcnemar_p": 1.0
+    },
+    "vs_Fork-Net, mixed": {
+     "fixes": 4,
+     "breaks": 2,
+     "mcnemar_p": 0.6875
+    },
+    "vs_Fork-Net, LPIPS+GAN": {
+     "fixes": 4,
+     "breaks": 2,
+     "mcnemar_p": 0.6875
+    },
+    "vs_Fork-Net, LP fine-tune": {
+     "fixes": 4,
+     "breaks": 2,
+     "mcnemar_p": 0.6875
+    },
+    "vs_Fork-Net, LP fine-tune + text": {
+     "fixes": 4,
+     "breaks": 2,
+     "mcnemar_p": 0.6875
+    }
+   },
+   "Fork-Net": {
+    "clip_exact": [
+     0.11764705882352941,
+     0.0392156862745098,
+     0.21568627450980393
+    ],
+    "n": 51,
+    "vs_Bicubic": {
+     "fixes": 3,
+     "breaks": 2,
+     "mcnemar_p": 1.0
+    },
+    "vs_BasicVSR": {
+     "fixes": 2,
+     "breaks": 1,
+     "mcnemar_p": 1.0
+    },
+    "vs_BasicVSR++": {
+     "fixes": 2,
+     "breaks": 2,
+     "mcnemar_p": 1.0
+    },
+    "vs_RVRT": {
+     "fixes": 3,
+     "breaks": 2,
+     "mcnemar_p": 1.0
+    },
+    "vs_RealBasicVSR": {
+     "fixes": 2,
+     "breaks": 4,
+     "mcnemar_p": 0.6875
+    },
+    "vs_MIA-VSR": {
+     "fixes": 2,
+     "breaks": 0,
+     "mcnemar_p": 0.5
+    },
+    "vs_BasicVSR++, kernel mix": {
+     "fixes": 1,
+     "breaks": 7,
+     "mcnemar_p": 0.0703125
+    },
+    "vs_Fork-Net, benchmark fine-tune": {
+     "fixes": 3,
+     "breaks": 1,
+     "mcnemar_p": 0.625
+    },
+    "vs_Fork-Net, kernel mix": {
+     "fixes": 1,
+     "breaks": 6,
+     "mcnemar_p": 0.125
+    },
+    "vs_Fork-Net, mixed": {
+     "fixes": 1,
+     "breaks": 5,
+     "mcnemar_p": 0.21875
+    },
+    "vs_Fork-Net, LPIPS+GAN": {
+     "fixes": 0,
+     "breaks": 4,
+     "mcnemar_p": 0.125
+    },
+    "vs_Fork-Net, LP fine-tune": {
+     "fixes": 2,
+     "breaks": 6,
+     "mcnemar_p": 0.2890625
+    },
+    "vs_Fork-Net, LP fine-tune + text": {
+     "fixes": 1,
+     "breaks": 5,
+     "mcnemar_p": 0.21875
+    }
+   },
+   "Fork-Net, benchmark fine-tune": {
+    "clip_exact": [
+     0.0784313725490196,
+     0.0196078431372549,
+     0.1568627450980392
+    ],
+    "n": 51,
+    "vs_Bicubic": {
+     "fixes": 3,
+     "breaks": 4,
+     "mcnemar_p": 1.0
+    },
+    "vs_BasicVSR": {
+     "fixes": 1,
+     "breaks": 2,
+     "mcnemar_p": 1.0
+    },
+    "vs_BasicVSR++": {
+     "fixes": 0,
+     "breaks": 2,
+     "mcnemar_p": 0.5
+    },
+    "vs_RVRT": {
+     "fixes": 0,
+     "breaks": 1,
+     "mcnemar_p": 1.0
+    },
+    "vs_RealBasicVSR": {
+     "fixes": 2,
+     "breaks": 6,
+     "mcnemar_p": 0.2890625
+    },
+    "vs_MIA-VSR": {
+     "fixes": 2,
+     "breaks": 2,
+     "mcnemar_p": 1.0
+    },
+    "vs_BasicVSR++, kernel mix": {
+     "fixes": 1,
+     "breaks": 9,
+     "mcnemar_p": 0.021484375
+    },
+    "vs_Fork-Net": {
+     "fixes": 1,
+     "breaks": 3,
+     "mcnemar_p": 0.625
+    },
+    "vs_Fork-Net, kernel mix": {
+     "fixes": 1,
+     "breaks": 8,
+     "mcnemar_p": 0.0390625
+    },
+    "vs_Fork-Net, mixed": {
+     "fixes": 1,
+     "breaks": 7,
+     "mcnemar_p": 0.0703125
+    },
+    "vs_Fork-Net, LPIPS+GAN": {
+     "fixes": 0,
+     "breaks": 6,
+     "mcnemar_p": 0.03125
+    },
+    "vs_Fork-Net, LP fine-tune": {
+     "fixes": 1,
+     "breaks": 7,
+     "mcnemar_p": 0.0703125
+    },
+    "vs_Fork-Net, LP fine-tune + text": {
+     "fixes": 1,
+     "breaks": 7,
+     "mcnemar_p": 0.0703125
+    }
+   },
+   "Fork-Net, kernel mix": {
+    "clip_exact": [
+     0.21568627450980393,
+     0.11764705882352941,
+     0.3333333333333333
+    ],
+    "n": 51,
+    "vs_Bicubic": {
+     "fixes": 7,
+     "breaks": 1,
+     "mcnemar_p": 0.0703125
+    },
+    "vs_BasicVSR": {
+     "fixes": 7,
+     "breaks": 1,
+     "mcnemar_p": 0.0703125
+    },
+    "vs_BasicVSR++": {
+     "fixes": 7,
+     "breaks": 2,
+     "mcnemar_p": 0.1796875
+    },
+    "vs_RVRT": {
+     "fixes": 7,
+     "breaks": 1,
+     "mcnemar_p": 0.0703125
+    },
+    "vs_RealBasicVSR": {
+     "fixes": 4,
+     "breaks": 1,
+     "mcnemar_p": 0.375
+    },
+    "vs_MIA-VSR": {
+     "fixes": 7,
+     "breaks": 0,
+     "mcnemar_p": 0.015625
+    },
+    "vs_BasicVSR++, kernel mix": {
+     "fixes": 2,
+     "breaks": 3,
+     "mcnemar_p": 1.0
+    },
+    "vs_Fork-Net": {
+     "fixes": 6,
+     "breaks": 1,
+     "mcnemar_p": 0.125
+    },
+    "vs_Fork-Net, benchmark fine-tune": {
+     "fixes": 8,
+     "breaks": 1,
+     "mcnemar_p": 0.0390625
+    },
+    "vs_Fork-Net, mixed": {
+     "fixes": 1,
+     "breaks": 0,
+     "mcnemar_p": 1.0
+    },
+    "vs_Fork-Net, LPIPS+GAN": {
+     "fixes": 2,
+     "breaks": 1,
+     "mcnemar_p": 1.0
+    },
+    "vs_Fork-Net, LP fine-tune": {
+     "fixes": 2,
+     "breaks": 1,
+     "mcnemar_p": 1.0
+    },
+    "vs_Fork-Net, LP fine-tune + text": {
+     "fixes": 2,
+     "breaks": 1,
+     "mcnemar_p": 1.0
+    }
+   },
+   "Fork-Net, mixed": {
+    "clip_exact": [
+     0.19607843137254902,
+     0.09803921568627451,
+     0.3137254901960784
+    ],
+    "n": 51,
+    "vs_Bicubic": {
+     "fixes": 6,
+     "breaks": 1,
+     "mcnemar_p": 0.125
+    },
+    "vs_BasicVSR": {
+     "fixes": 6,
+     "breaks": 1,
+     "mcnemar_p": 0.125
+    },
+    "vs_BasicVSR++": {
+     "fixes": 6,
+     "breaks": 2,
+     "mcnemar_p": 0.2890625
+    },
+    "vs_RVRT": {
+     "fixes": 6,
+     "breaks": 1,
+     "mcnemar_p": 0.125
+    },
+    "vs_RealBasicVSR": {
+     "fixes": 3,
+     "breaks": 1,
+     "mcnemar_p": 0.625
+    },
+    "vs_MIA-VSR": {
+     "fixes": 6,
+     "breaks": 0,
+     "mcnemar_p": 0.03125
+    },
+    "vs_BasicVSR++, kernel mix": {
+     "fixes": 2,
+     "breaks": 4,
+     "mcnemar_p": 0.6875
+    },
+    "vs_Fork-Net": {
+     "fixes": 5,
+     "breaks": 1,
+     "mcnemar_p": 0.21875
+    },
+    "vs_Fork-Net, benchmark fine-tune": {
+     "fixes": 7,
+     "breaks": 1,
+     "mcnemar_p": 0.0703125
+    },
+    "vs_Fork-Net, kernel mix": {
+     "fixes": 0,
+     "breaks": 1,
+     "mcnemar_p": 1.0
+    },
+    "vs_Fork-Net, LPIPS+GAN": {
+     "fixes": 1,
+     "breaks": 1,
+     "mcnemar_p": 1.0
+    },
+    "vs_Fork-Net, LP fine-tune": {
+     "fixes": 2,
+     "breaks": 2,
+     "mcnemar_p": 1.0
+    },
+    "vs_Fork-Net, LP fine-tune + text": {
+     "fixes": 1,
+     "breaks": 1,
+     "mcnemar_p": 1.0
+    }
+   },
+   "Fork-Net, LPIPS+GAN": {
+    "clip_exact": [
+     0.19607843137254902,
+     0.09803921568627451,
+     0.3137254901960784
+    ],
+    "n": 51,
+    "vs_Bicubic": {
+     "fixes": 6,
+     "breaks": 1,
+     "mcnemar_p": 0.125
+    },
+    "vs_BasicVSR": {
+     "fixes": 5,
+     "breaks": 0,
+     "mcnemar_p": 0.0625
+    },
+    "vs_BasicVSR++": {
+     "fixes": 5,
+     "breaks": 1,
+     "mcnemar_p": 0.21875
+    },
+    "vs_RVRT": {
+     "fixes": 5,
+     "breaks": 0,
+     "mcnemar_p": 0.0625
+    },
+    "vs_RealBasicVSR": {
+     "fixes": 3,
+     "breaks": 1,
+     "mcnemar_p": 0.625
+    },
+    "vs_MIA-VSR": {
+     "fixes": 6,
+     "breaks": 0,
+     "mcnemar_p": 0.03125
+    },
+    "vs_BasicVSR++, kernel mix": {
+     "fixes": 2,
+     "breaks": 4,
+     "mcnemar_p": 0.6875
+    },
+    "vs_Fork-Net": {
+     "fixes": 4,
+     "breaks": 0,
+     "mcnemar_p": 0.125
+    },
+    "vs_Fork-Net, benchmark fine-tune": {
+     "fixes": 6,
+     "breaks": 0,
+     "mcnemar_p": 0.03125
+    },
+    "vs_Fork-Net, kernel mix": {
+     "fixes": 1,
+     "breaks": 2,
+     "mcnemar_p": 1.0
+    },
+    "vs_Fork-Net, mixed": {
+     "fixes": 1,
+     "breaks": 1,
+     "mcnemar_p": 1.0
+    },
+    "vs_Fork-Net, LP fine-tune": {
+     "fixes": 3,
+     "breaks": 3,
+     "mcnemar_p": 1.0
+    },
+    "vs_Fork-Net, LP fine-tune + text": {
+     "fixes": 2,
+     "breaks": 2,
+     "mcnemar_p": 1.0
+    }
+   },
+   "Fork-Net, LP fine-tune": {
+    "clip_exact": [
+     0.19607843137254902,
+     0.09803921568627451,
+     0.3137254901960784
+    ],
+    "n": 51,
+    "vs_Bicubic": {
+     "fixes": 7,
+     "breaks": 2,
+     "mcnemar_p": 0.1796875
+    },
+    "vs_BasicVSR": {
+     "fixes": 7,
+     "breaks": 2,
+     "mcnemar_p": 0.1796875
+    },
+    "vs_BasicVSR++": {
+     "fixes": 5,
+     "breaks": 1,
+     "mcnemar_p": 0.21875
+    },
+    "vs_RVRT": {
+     "fixes": 6,
+     "breaks": 1,
+     "mcnemar_p": 0.125
+    },
+    "vs_RealBasicVSR": {
+     "fixes": 3,
+     "breaks": 1,
+     "mcnemar_p": 0.625
+    },
+    "vs_MIA-VSR": {
+     "fixes": 7,
+     "breaks": 1,
+     "mcnemar_p": 0.0703125
+    },
+    "vs_BasicVSR++, kernel mix": {
+     "fixes": 2,
+     "breaks": 4,
+     "mcnemar_p": 0.6875
+    },
+    "vs_Fork-Net": {
+     "fixes": 6,
+     "breaks": 2,
+     "mcnemar_p": 0.2890625
+    },
+    "vs_Fork-Net, benchmark fine-tune": {
+     "fixes": 7,
+     "breaks": 1,
+     "mcnemar_p": 0.0703125
+    },
+    "vs_Fork-Net, kernel mix": {
+     "fixes": 1,
+     "breaks": 2,
+     "mcnemar_p": 1.0
+    },
+    "vs_Fork-Net, mixed": {
+     "fixes": 2,
+     "breaks": 2,
+     "mcnemar_p": 1.0
+    },
+    "vs_Fork-Net, LPIPS+GAN": {
+     "fixes": 3,
+     "breaks": 3,
+     "mcnemar_p": 1.0
+    },
+    "vs_Fork-Net, LP fine-tune + text": {
+     "fixes": 1,
+     "breaks": 1,
+     "mcnemar_p": 1.0
+    }
+   },
+   "Fork-Net, LP fine-tune + text": {
+    "clip_exact": [
+     0.19607843137254902,
+     0.09803921568627451,
+     0.3137254901960784
+    ],
+    "n": 51,
+    "vs_Bicubic": {
+     "fixes": 6,
+     "breaks": 1,
+     "mcnemar_p": 0.125
+    },
+    "vs_BasicVSR": {
+     "fixes": 6,
+     "breaks": 1,
+     "mcnemar_p": 0.125
+    },
+    "vs_BasicVSR++": {
+     "fixes": 5,
+     "breaks": 1,
+     "mcnemar_p": 0.21875
+    },
+    "vs_RVRT": {
+     "fixes": 6,
+     "breaks": 1,
+     "mcnemar_p": 0.125
+    },
+    "vs_RealBasicVSR": {
+     "fixes": 2,
+     "breaks": 0,
+     "mcnemar_p": 0.5
+    },
+    "vs_MIA-VSR": {
+     "fixes": 6,
+     "breaks": 0,
+     "mcnemar_p": 0.03125
+    },
+    "vs_BasicVSR++, kernel mix": {
+     "fixes": 2,
+     "breaks": 4,
+     "mcnemar_p": 0.6875
+    },
+    "vs_Fork-Net": {
+     "fixes": 5,
+     "breaks": 1,
+     "mcnemar_p": 0.21875
+    },
+    "vs_Fork-Net, benchmark fine-tune": {
+     "fixes": 7,
+     "breaks": 1,
+     "mcnemar_p": 0.0703125
+    },
+    "vs_Fork-Net, kernel mix": {
+     "fixes": 1,
+     "breaks": 2,
+     "mcnemar_p": 1.0
+    },
+    "vs_Fork-Net, mixed": {
+     "fixes": 1,
+     "breaks": 1,
+     "mcnemar_p": 1.0
+    },
+    "vs_Fork-Net, LPIPS+GAN": {
+     "fixes": 2,
+     "breaks": 2,
+     "mcnemar_p": 1.0
+    },
+    "vs_Fork-Net, LP fine-tune": {
+     "fixes": 1,
+     "breaks": 1,
+     "mcnemar_p": 1.0
+    }
+   }
+  }
+ },
+ "quality": {}
+}

@@ -1,0 +1,5 @@
+# Unidirectional (causal) propagation: no backward branch.
+base: ../train_reds.yaml
+name: ablation_forward_only
+model:
+  prop_direction: forward

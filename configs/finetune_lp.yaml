@@ -1,0 +1,29 @@
+# Fine-tune a REDS-trained Fork-Net on the LP video dataset (forknet-lp-data/lpsr: 221 train / 30 val / 31 test clips,
+# 256x256 HR, LR made with OpenCV INTER_CUBIC). Paper setting: lr 5e-5, batch 1, 10-frame clips.
+# The model block must match the pretrained checkpoint (set the legacy_* flags to true for the paper weights).
+base: train_reds.yaml
+name: forknet_lp_finetune
+pretrained: experiments/forknet_reds/checkpoints/final.pth
+data:
+  train:
+    lr_root: data/lp/lpsr/train/X4
+    hr_root: data/lp/lpsr/train/sharp
+    exclude: null
+    num_frames: 10
+    patch_size: 64            # LR frames are 64x64: whole frames
+    temporal_sampling: random
+  val:
+    lr_root: data/lp/lpsr/val/X4
+    hr_root: data/lp/lpsr/val/sharp
+    clips: null
+    split_file: splits/lp_lpsr.json
+    split: val_clean
+train:
+  total_iters: 20000
+  batch_size: 4
+  lr: 5.0e-5
+  fix_flow_iters: 0
+  val_every: 2000
+  save_every: 2000
+val:
+  chunk_size: null

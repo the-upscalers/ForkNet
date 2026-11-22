@@ -1,0 +1,10 @@
+# Real-world Fork-Net obtained cheaply: paper checkpoint + corrected propagation, fine-tuned on REDS clips with
+# RealBasicVSR-style random degradations synthesised on the fly. ~30k iterations, one or two Kaggle sessions.
+base: train_reds_real.yaml
+name: forknet_real_ft
+pretrained: auto:paper
+train:
+  total_iters: 30000
+  lr: 1.0e-4
+  fix_flow_iters: 0
+  save_every: 2000

@@ -1,0 +1,4 @@
+# Seed 1 replicate of km_w32_pilot.yaml.
+base: km_w32_pilot.yaml
+name: km_w32_pilot_s1
+seed: 1

@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper."
+title: "Fork-Net: U-Net video super-resolution with second-order bidirectional propagation"
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/the-upscalers/ForkNet"
+authors:
+  - family-names: Sathiyendra
+    given-names: T. J.
+  - family-names: Niles
+    given-names: D. A.
+  - family-names: Nagaratnam
+    given-names: Thenujan
+  - family-names: Ambegoda
+    given-names: Thanuja D.
+preferred-citation:
+  type: article
+  title: "Investigating the Resampling-Kernel Gap in Video Super-Resolution for License Plate Recognition"
+  journal: "IEEE Transactions on Intelligent Transportation Systems"
+  authors:
+    - family-names: Sathiyendra
+      given-names: T. J.
+    - family-names: Niles
+      given-names: D. A.
+    - family-names: Nagaratnam
+      given-names: Thenujan
+    - family-names: Ambegoda
+      given-names: Thanuja D.
+  year: 2026
+  notes: "Under review"

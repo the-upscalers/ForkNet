@@ -1,0 +1,3 @@
+# Full-schedule models (300k iterations).
+configs/train_reds.yaml name=forknet_reds
+configs/train_reds_real.yaml name=forknet_reds_real

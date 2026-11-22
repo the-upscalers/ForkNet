@@ -1,0 +1,188 @@
+{
+  "gpu": "Tesla T4",
+  "torch": "2.11.0+cu128",
+  "runs": {
+    "train_reds": {
+      "oom": true,
+      "batch": 4,
+      "frames": 15
+    },
+    "train_reds +ckpt": {
+      "sec_per_iter": 1.5964546152500005,
+      "peak_mem_gb": 9.918476288,
+      "batch": 4,
+      "frames": 15,
+      "hours_per_100k": 44.345961534722235
+    },
+    "train_reds_legacy": {
+      "oom": true,
+      "batch": 4,
+      "frames": 15
+    },
+    "train_reds_legacy +ckpt": {
+      "sec_per_iter": 1.6189125891499998,
+      "peak_mem_gb": 9.91847424,
+      "batch": 4,
+      "frames": 15,
+      "hours_per_100k": 44.96979414305555
+    },
+    "first_order": {
+      "oom": true,
+      "batch": 4,
+      "frames": 15
+    },
+    "first_order +ckpt": {
+      "sec_per_iter": 1.6000653279999995,
+      "peak_mem_gb": 9.269458944,
+      "batch": 4,
+      "frames": 15,
+      "hours_per_100k": 44.4462591111111
+    },
+    "forward_only": {
+      "oom": true,
+      "batch": 4,
+      "frames": 15
+    },
+    "forward_only +ckpt": {
+      "sec_per_iter": 1.3024188428499996,
+      "peak_mem_gb": 8.611915264,
+      "batch": 4,
+      "frames": 15,
+      "hours_per_100k": 36.178301190277764
+    },
+    "legacy_propagation": {
+      "oom": true,
+      "batch": 4,
+      "frames": 15
+    },
+    "legacy_propagation +ckpt": {
+      "sec_per_iter": 1.667167587350002,
+      "peak_mem_gb": 9.91847424,
+      "batch": 4,
+      "frames": 15,
+      "hours_per_100k": 46.31021075972228
+    },
+    "no_bsconv": {
+      "oom": true,
+      "batch": 4,
+      "frames": 15
+    },
+    "no_bsconv +ckpt": {
+      "sec_per_iter": 2.355703748350001,
+      "peak_mem_gb": 9.069196288,
+      "batch": 4,
+      "frames": 15,
+      "hours_per_100k": 65.43621523194447
+    },
+    "no_convnext": {
+      "oom": true,
+      "batch": 4,
+      "frames": 15
+    },
+    "no_convnext +ckpt": {
+      "sec_per_iter": 1.6997746931499988,
+      "peak_mem_gb": 9.930805248,
+      "batch": 4,
+      "frames": 15,
+      "hours_per_100k": 47.21596369861108
+    },
+    "no_flow": {
+      "oom": true,
+      "batch": 4,
+      "frames": 15
+    },
+    "no_flow +ckpt": {
+      "sec_per_iter": 1.5028070306500012,
+      "peak_mem_gb": 9.49999104,
+      "batch": 4,
+      "frames": 15,
+      "hours_per_100k": 41.74463974027781
+    },
+    "no_lr_injection": {
+      "oom": true,
+      "batch": 4,
+      "frames": 15
+    },
+    "no_lr_injection +ckpt": {
+      "sec_per_iter": 1.6688202391999993,
+      "peak_mem_gb": 9.822129152,
+      "batch": 4,
+      "frames": 15,
+      "hours_per_100k": 46.35611775555553
+    },
+    "no_propagation": {
+      "oom": true,
+      "batch": 4,
+      "frames": 15
+    },
+    "no_propagation +ckpt": {
+      "sec_per_iter": 1.382624041050002,
+      "peak_mem_gb": 8.588975104,
+      "batch": 4,
+      "frames": 15,
+      "hours_per_100k": 38.40622336250006
+    },
+    "width32": {
+      "sec_per_iter": 0.8483359258000007,
+      "peak_mem_gb": 10.95371008,
+      "batch": 4,
+      "frames": 15,
+      "hours_per_100k": 23.564886827777798
+    },
+    "width32 +ckpt": {
+      "sec_per_iter": 1.1409591974500017,
+      "peak_mem_gb": 5.208622592,
+      "batch": 4,
+      "frames": 15,
+      "hours_per_100k": 31.693311040277823
+    },
+    "width48": {
+      "oom": true,
+      "batch": 4,
+      "frames": 15
+    },
+    "width48 +ckpt": {
+      "sec_per_iter": 1.4110759718999986,
+      "peak_mem_gb": 7.57132288,
+      "batch": 4,
+      "frames": 15,
+      "hours_per_100k": 39.19655477499996
+    },
+    "batch2_len30": {
+      "oom": true,
+      "batch": 2,
+      "frames": 30
+    },
+    "batch2_len30 +ckpt": {
+      "sec_per_iter": 2.124254044999998,
+      "peak_mem_gb": 9.950616576,
+      "batch": 2,
+      "frames": 30,
+      "hours_per_100k": 59.0070568055555
+    },
+    "batch4_len15": {
+      "oom": true,
+      "batch": 4,
+      "frames": 15
+    },
+    "batch4_len15 +ckpt": {
+      "sec_per_iter": 1.7064217777500006,
+      "peak_mem_gb": 9.918476288,
+      "batch": 4,
+      "frames": 15,
+      "hours_per_100k": 47.40060493750001
+    },
+    "batch8_len7": {
+      "oom": true,
+      "batch": 8,
+      "frames": 7
+    },
+    "batch8_len7 +ckpt": {
+      "sec_per_iter": 1.4560942631499985,
+      "peak_mem_gb": 9.120463872,
+      "batch": 8,
+      "frames": 7,
+      "hours_per_100k": 40.447062865277736
+    }
+  }
+}

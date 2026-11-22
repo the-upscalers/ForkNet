@@ -1,0 +1,17 @@
+{
+ "BasicVSR++": {
+  "setting": "--chunk-size 100",
+  "psnr_rgb": 32.38539749484658,
+  "ssim_rgb": 0.9069458195022793
+ },
+ "RVRT": {
+  "setting": "--chunk-size 100 --tile 128",
+  "psnr_rgb": 32.74903453709898,
+  "ssim_rgb": 0.9116918674409811
+ },
+ "MIA-VSR": {
+  "setting": "--chunk-size 100",
+  "psnr_rgb": 32.76166084026673,
+  "ssim_rgb": 0.9112957203955305
+ }
+}

@@ -1,0 +1,14 @@
+# Size study, full scale: kernel-mix degradation, width 64, 15-frame clips, 40k iterations, from scratch.
+base: ../train_reds.yaml
+name: km_w64_full
+model:
+  num_feat: 64
+data:
+  train:
+    lr_root: null
+    degradation:
+      type: kernel_mix
+train:
+  total_iters: 40000
+  val_every: 0
+  save_every: 10000
